@@ -1,0 +1,20 @@
+# dependências
+node_modules
+
+# build do Next
+.next
+out
+
+# logs e sistema
+*.log
+.DS_Store
+*.local
+
+# arquivos temporários de análise/preview
+_preview_*.png
+_pdf_text.txt
+_competitor.txt
+
+# e-book (produto) — NÃO versionar para não vazar e não pesar o repositório
+landingpage.pdf
+*.pdf

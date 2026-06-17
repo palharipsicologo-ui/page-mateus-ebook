@@ -1,0 +1,17 @@
+{
+  "name": "protocolo-controle-absoluto",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Landing page de vendas do e-book Protocolo: Controle Absoluto (Next.js)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
