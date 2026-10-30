@@ -16,14 +16,8 @@ export default function Bonus() {
 
         <Reveal className="bonus-feature">
           <div className="bonus-feature__visual" aria-label="Capa do bônus Dopamina Reset">
-            <div className="bonus-book">
-              <div className="bonus-book__glow" />
-              <div className="bonus-book__king">♚</div>
-              <span className="bonus-book__eyebrow">BÔNUS PREMIUM</span>
-              <strong>DOPAMINA<br />RESET</strong>
-              <span className="bonus-book__line" />
-              <small>30 dias para recuperar o comando sobre estímulo e atenção.</small>
-              <span className="bonus-book__author">O MAESTRO</span>
+            <div className="bonus-cover-wrap">
+              <img src="/dopamina-reset-cover.svg" alt="Capa do Protocolo Dopamina Reset" />
             </div>
           </div>
 
