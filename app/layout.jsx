@@ -1,5 +1,6 @@
 import './globals.css'
 import './premium.css'
+import './refinements.css'
 
 export const metadata = {
   title: 'Protocolo Controle Absoluto — assuma o comando do seu desempenho',
