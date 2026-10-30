@@ -6,10 +6,10 @@ export default function Authority() {
     <section className="section authority">
       <div className="container">
         <div className="authority__inner">
-          <Reveal className="authority__seal">
+          <Reveal className="authority__seal authority__seal--king" aria-label="Símbolo do Maestro: rei de xadrez">
             <div className="authority__seal-inner">
-              <span className="m">M</span>
-              <span className="label">O Maestro</span>
+              <span className="king">♚</span>
+              <span className="label">O MAESTRO</span>
             </div>
           </Reveal>
 
