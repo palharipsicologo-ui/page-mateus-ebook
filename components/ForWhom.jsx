@@ -11,24 +11,24 @@ export default function ForWhom() {
         </Reveal>
 
         <div className="forwhom">
-          <Reveal className="forwhom__card forwhom__card--yes">
-            <h3 className="forwhom__title gold-text">{FOR_WHOM.isFor.title}</h3>
+          <Reveal className="forwhom__card forwhom__card--no">
+            <h3 className="forwhom__title">{FOR_WHOM.isNotFor.title}</h3>
             <ul className="forwhom__list">
-              {FOR_WHOM.isFor.items.map((item, i) => (
+              {FOR_WHOM.isNotFor.items.map((item, i) => (
                 <li className="forwhom__item" key={i}>
-                  <Check size={20} />
+                  <X size={20} />
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
           </Reveal>
 
-          <Reveal className="forwhom__card forwhom__card--no" style={{ transitionDelay: '90ms' }}>
-            <h3 className="forwhom__title">{FOR_WHOM.isNotFor.title}</h3>
+          <Reveal className="forwhom__card forwhom__card--yes" style={{ transitionDelay: '90ms' }}>
+            <h3 className="forwhom__title gold-text">{FOR_WHOM.isFor.title}</h3>
             <ul className="forwhom__list">
-              {FOR_WHOM.isNotFor.items.map((item, i) => (
+              {FOR_WHOM.isFor.items.map((item, i) => (
                 <li className="forwhom__item" key={i}>
-                  <X size={20} />
+                  <Check size={20} />
                   <span>{item}</span>
                 </li>
               ))}
