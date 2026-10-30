@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1300" role="img" aria-labelledby="title desc">
+  <title id="title">Protocolo Dopamina Reset</title>
+  <desc id="desc">Capa premium preta e dourada do bônus Dopamina Reset.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070706"/>
+      <stop offset=".5" stop-color="#11100e"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1d28b"/>
+      <stop offset=".45" stop-color="#c99b45"/>
+      <stop offset="1" stop-color="#7b5420"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="45%" r="52%">
+      <stop offset="0" stop-color="#c99b45" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#c99b45" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".78"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1300" fill="url(#bg)"/>
+  <rect width="900" height="1300" fill="url(#halo)"/>
+  <rect x="28" y="28" width="844" height="1244" rx="6" fill="none" stroke="#c99b45" stroke-opacity=".24"/>
+
+  <text x="450" y="115" text-anchor="middle" fill="#c99b45" font-size="22" font-family="Arial, Helvetica, sans-serif" letter-spacing="5">BÔNUS PREMIUM</text>
+  <text x="450" y="175" text-anchor="middle" fill="#efe6d5" font-size="30" font-family="Georgia, serif" letter-spacing="4">PROTOCOLO</text>
+
+  <g transform="translate(450 560)" filter="url(#shadow)">
+    <circle r="230" fill="none" stroke="#c99b45" stroke-opacity=".16" stroke-width="2"/>
+    <circle r="172" fill="none" stroke="#c99b45" stroke-opacity=".3" stroke-width="2" stroke-dasharray="5 12"/>
+    <path d="M0 -138 C78 -138 138 -78 138 0 C138 78 78 138 0 138 C-78 138 -138 78 -138 0 C-138 -78 -78 -138 0 -138Z" fill="#090806" stroke="url(#gold)" stroke-width="5"/>
+    <path d="M-78 -18 C-35 -78 33 -80 79 -22" fill="none" stroke="#c99b45" stroke-opacity=".42" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-78 16 C-36 72 34 77 80 18" fill="none" stroke="#c99b45" stroke-opacity=".42" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-116 0 H-65" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M65 0 H116" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 -116 V-66" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 66 V116" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <circle r="23" fill="url(#gold)"/>
+  </g>
+
+  <text x="450" y="895" text-anchor="middle" fill="#f4dfa3" font-size="74" font-weight="700" font-family="Georgia, serif">DOPAMINA</text>
+  <text x="450" y="975" text-anchor="middle" fill="#f4dfa3" font-size="74" font-weight="700" font-family="Georgia, serif">RESET</text>
+  <line x1="400" x2="500" y1="1019" y2="1019" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+  <text x="450" y="1088" text-anchor="middle" fill="#d0c4b0" font-size="24" font-family="Arial, Helvetica, sans-serif">30 dias para recuperar o controle sobre</text>
+  <text x="450" y="1125" text-anchor="middle" fill="#d0c4b0" font-size="24" font-family="Arial, Helvetica, sans-serif">estímulos, hábitos e atenção sexual.</text>
+  <text x="450" y="1248" text-anchor="middle" fill="#c99b45" font-size="17" font-family="Arial, Helvetica, sans-serif" letter-spacing="5">O MAESTRO</text>
+</svg>
