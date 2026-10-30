@@ -1,78 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1733" role="img" aria-labelledby="title desc">
   <title id="title">Protocolo Controle Absoluto</title>
-  <desc id="desc">Capa preta e dourada com peça de rei de xadrez.</desc>
+  <desc id="desc">Capa premium preta e dourada com rei de xadrez em mármore negro.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#090807"/>
-      <stop offset="0.48" stop-color="#17110b"/>
-      <stop offset="1" stop-color="#050504"/>
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".34" stop-color="#12100d"/>
+      <stop offset=".68" stop-color="#070604"/>
+      <stop offset="1" stop-color="#020202"/>
     </linearGradient>
-    <radialGradient id="glow" cx="52%" cy="48%" r="55%">
-      <stop offset="0" stop-color="#c99b45" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#c99b45" stop-opacity="0"/>
+    <radialGradient id="halo" cx="50%" cy="44%" r="52%">
+      <stop offset="0" stop-color="#d2a44c" stop-opacity=".24"/>
+      <stop offset=".45" stop-color="#a97a29" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f4dfa3"/>
-      <stop offset=".45" stop-color="#c99b45"/>
-      <stop offset="1" stop-color="#79531f"/>
+      <stop offset="0" stop-color="#fff0bb"/>
+      <stop offset=".34" stop-color="#d5a648"/>
+      <stop offset=".68" stop-color="#855a1d"/>
+      <stop offset="1" stop-color="#efc96d"/>
     </linearGradient>
-    <linearGradient id="kingBlack" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070605"/>
-      <stop offset=".42" stop-color="#241b11"/>
-      <stop offset=".72" stop-color="#050504"/>
-      <stop offset="1" stop-color="#17110b"/>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset=".22" stop-color="#21180e"/>
+      <stop offset=".48" stop-color="#050505"/>
+      <stop offset=".72" stop-color="#2a1b0c"/>
+      <stop offset="1" stop-color="#020202"/>
     </linearGradient>
-    <filter id="shadow" x="-40%" y="-30%" width="180%" height="190%">
-      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000" flood-opacity=".75"/>
+    <radialGradient id="shine" cx="31%" cy="20%" r="75%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset=".26" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset=".58" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-35%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="36" stdDeviation="30" flood-color="#000" flood-opacity=".82"/>
     </filter>
-    <clipPath id="kingClip">
-      <rect x="425" y="345" width="50" height="105" rx="8"/>
-      <rect x="382" y="378" width="136" height="42" rx="8"/>
-      <path d="M360 458 C392 438 508 438 540 458 C572 485 570 531 529 552 C500 567 400 567 371 552 C330 531 328 485 360 458Z"/>
-      <rect x="338" y="547" width="224" height="38" rx="19"/>
-      <path d="M405 585 C404 654 391 713 351 790 L549 790 C509 713 496 654 495 585Z"/>
-      <rect x="326" y="785" width="248" height="38" rx="19"/>
-      <path d="M310 825 C278 844 267 878 284 902 C306 934 357 947 450 947 C543 947 594 934 616 902 C633 878 622 844 590 825Z"/>
-      <rect x="278" y="902" width="344" height="55" rx="26"/>
+    <clipPath id="king">
+      <path d="M568 332 H632 V368 H666 V416 H632 V450 H568 V416 H534 V368 H568 Z"/>
+      <path d="M500 468 C525 445 675 445 700 468 C728 492 734 535 711 566 C690 594 655 608 600 608 C545 608 510 594 489 566 C466 535 472 492 500 468 Z"/>
+      <rect x="456" y="604" width="288" height="48" rx="24"/>
+      <path d="M515 652 C512 722 497 785 465 855 C449 891 431 920 416 952 H784 C769 920 751 891 735 855 C703 785 688 722 685 652 Z"/>
+      <rect x="412" y="942" width="376" height="50" rx="25"/>
+      <path d="M406 994 C370 1013 358 1057 376 1086 C400 1124 470 1144 600 1144 C730 1144 800 1124 824 1086 C842 1057 830 1013 794 994 Z"/>
+      <rect x="360" y="1124" width="480" height="58" rx="29"/>
     </clipPath>
   </defs>
 
-  <rect width="900" height="1300" fill="url(#bg)"/>
-  <rect x="28" y="28" width="844" height="1244" rx="6" fill="none" stroke="#c99b45" stroke-opacity=".28"/>
-  <rect width="900" height="1300" fill="url(#glow)"/>
+  <rect width="1200" height="1733" fill="url(#bg)"/>
+  <rect width="1200" height="1733" fill="url(#halo)"/>
+  <rect x="40" y="40" width="1120" height="1653" rx="8" fill="none" stroke="#c99b45" stroke-opacity=".22" stroke-width="2"/>
 
-  <g opacity=".5" fill="none" stroke-linecap="round">
-    <path d="M-70 1030 C130 905 205 980 354 900 C531 804 656 864 985 670" stroke="#c99b45" stroke-opacity=".22" stroke-width="40"/>
-    <path d="M-20 1138 C190 1008 303 1086 460 1003 C632 912 752 946 955 841" stroke="#f4dfa3" stroke-opacity=".08" stroke-width="64"/>
-    <path d="M60 100 C190 182 260 163 390 115 C512 70 665 87 840 190" stroke="#c99b45" stroke-opacity=".08" stroke-width="42"/>
+  <g opacity=".52" fill="none" stroke-linecap="round">
+    <path d="M-140 1420 C120 1260 330 1332 530 1200 C750 1055 930 1110 1340 860" stroke="#c99b45" stroke-opacity=".16" stroke-width="76"/>
+    <path d="M-60 1570 C190 1412 382 1494 626 1348 C828 1226 1025 1268 1315 1080" stroke="#f1d08b" stroke-opacity=".05" stroke-width="114"/>
+    <path d="M60 180 C260 270 394 235 552 162 C735 78 962 112 1170 286" stroke="#c99b45" stroke-opacity=".055" stroke-width="72"/>
   </g>
 
-  <text x="450" y="108" text-anchor="middle" fill="#c99b45" font-size="20" font-family="Arial, Helvetica, sans-serif" letter-spacing="6">UM PERCURSO PRÁTICO DE 30 DIAS</text>
-  <text x="450" y="164" text-anchor="middle" fill="#efe6d5" font-size="30" font-family="Georgia, serif" letter-spacing="4">PROTOCOLO</text>
+  <text x="600" y="128" text-anchor="middle" fill="#c99b45" font-size="26" font-family="Arial, Helvetica, sans-serif" letter-spacing="9">UM PERCURSO PRÁTICO DE 30 DIAS</text>
+  <text x="600" y="196" text-anchor="middle" fill="#f0e8db" font-size="42" font-family="Georgia, serif" letter-spacing="7">PROTOCOLO</text>
 
   <g filter="url(#shadow)">
-    <g clip-path="url(#kingClip)">
-      <rect x="250" y="315" width="400" height="675" fill="url(#kingBlack)"/>
-      <path d="M318 400 C410 480 429 574 512 662 C557 710 560 804 615 886" fill="none" stroke="url(#gold)" stroke-width="11" stroke-linecap="round"/>
-      <path d="M590 380 C522 458 532 524 462 603 C405 666 425 729 359 807" fill="none" stroke="#d2a456" stroke-width="8" stroke-linecap="round"/>
-      <path d="M339 721 C410 739 438 789 475 848 C498 884 548 903 582 947" fill="none" stroke="#8a6228" stroke-width="7" stroke-linecap="round"/>
-      <path d="M487 346 C478 415 452 456 449 514 C446 561 475 580 469 636" fill="none" stroke="#edcf86" stroke-width="6" stroke-linecap="round"/>
+    <g clip-path="url(#king)">
+      <rect x="340" y="300" width="520" height="900" fill="url(#stone)"/>
+      <rect x="340" y="300" width="520" height="900" fill="url(#shine)"/>
+      <path d="M438 378 C525 450 544 533 620 610 C695 686 684 792 773 901 C808 944 811 1002 824 1084" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+      <path d="M758 405 C690 488 710 548 632 626 C561 697 585 764 518 853 C484 898 485 956 461 1033" fill="none" stroke="#d7a64a" stroke-width="9" stroke-linecap="round"/>
+      <path d="M452 798 C525 807 572 851 607 907 C642 964 695 985 761 1054" fill="none" stroke="#85571b" stroke-width="8" stroke-linecap="round"/>
+      <path d="M634 320 C620 390 590 438 590 493 C590 538 620 563 613 618" fill="none" stroke="#efd386" stroke-width="7" stroke-linecap="round"/>
+      <path d="M505 545 C552 562 576 598 605 638" fill="none" stroke="#bd7d27" stroke-width="6" stroke-linecap="round"/>
+      <path d="M677 743 C720 776 742 820 766 872" fill="none" stroke="#edc568" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="520" cy="500" r="7" fill="#e5b95c"/>
+      <circle cx="716" cy="862" r="6" fill="#c98c31"/>
+      <circle cx="530" cy="1038" r="6" fill="#efc96d"/>
     </g>
-    <g fill="none" stroke="url(#gold)" stroke-width="4" stroke-opacity=".9">
-      <rect x="425" y="345" width="50" height="105" rx="8"/>
-      <rect x="382" y="378" width="136" height="42" rx="8"/>
-      <path d="M360 458 C392 438 508 438 540 458 C572 485 570 531 529 552 C500 567 400 567 371 552 C330 531 328 485 360 458Z"/>
-      <rect x="338" y="547" width="224" height="38" rx="19"/>
-      <path d="M405 585 C404 654 391 713 351 790 L549 790 C509 713 496 654 495 585Z"/>
-      <rect x="326" y="785" width="248" height="38" rx="19"/>
-      <path d="M310 825 C278 844 267 878 284 902 C306 934 357 947 450 947 C543 947 594 934 616 902 C633 878 622 844 590 825Z"/>
-      <rect x="278" y="902" width="344" height="55" rx="26"/>
+
+    <g fill="none" stroke="url(#gold)" stroke-width="5.5" stroke-opacity=".94">
+      <path d="M568 332 H632 V368 H666 V416 H632 V450 H568 V416 H534 V368 H568 Z"/>
+      <path d="M500 468 C525 445 675 445 700 468 C728 492 734 535 711 566 C690 594 655 608 600 608 C545 608 510 594 489 566 C466 535 472 492 500 468 Z"/>
+      <rect x="456" y="604" width="288" height="48" rx="24"/>
+      <path d="M515 652 C512 722 497 785 465 855 C449 891 431 920 416 952 H784 C769 920 751 891 735 855 C703 785 688 722 685 652 Z"/>
+      <rect x="412" y="942" width="376" height="50" rx="25"/>
+      <path d="M406 994 C370 1013 358 1057 376 1086 C400 1124 470 1144 600 1144 C730 1144 800 1124 824 1086 C842 1057 830 1013 794 994 Z"/>
+      <rect x="360" y="1124" width="480" height="58" rx="29"/>
     </g>
   </g>
 
-  <text x="450" y="1040" text-anchor="middle" fill="#f4dfa3" font-size="74" font-weight="700" font-family="Georgia, serif">CONTROLE</text>
-  <text x="450" y="1120" text-anchor="middle" fill="#f4dfa3" font-size="74" font-weight="700" font-family="Georgia, serif">ABSOLUTO</text>
-  <line x1="400" x2="500" y1="1163" y2="1163" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
-  <text x="450" y="1210" text-anchor="middle" fill="#c8bda9" font-size="20" font-family="Arial, Helvetica, sans-serif">Desenvoltura sexual. Percepção, posições e condução em parceria.</text>
-  <text x="450" y="1250" text-anchor="middle" fill="#c99b45" font-size="17" font-family="Arial, Helvetica, sans-serif" letter-spacing="5">O MAESTRO</text>
+  <text x="600" y="1320" text-anchor="middle" fill="#f4dfa3" font-size="95" font-weight="700" font-family="Georgia, serif">CONTROLE</text>
+  <text x="600" y="1422" text-anchor="middle" fill="#f4dfa3" font-size="95" font-weight="700" font-family="Georgia, serif">ABSOLUTO</text>
+  <line x1="535" x2="665" y1="1472" y2="1472" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+  <text x="600" y="1536" text-anchor="middle" fill="#d4c8b5" font-size="25" font-family="Arial, Helvetica, sans-serif">Desenvoltura sexual. Percepção, posições</text>
+  <text x="600" y="1574" text-anchor="middle" fill="#d4c8b5" font-size="25" font-family="Arial, Helvetica, sans-serif">e condução em parceria.</text>
+  <text x="600" y="1652" text-anchor="middle" fill="#c99b45" font-size="22" font-family="Arial, Helvetica, sans-serif" letter-spacing="7">O MAESTRO</text>
 </svg>
