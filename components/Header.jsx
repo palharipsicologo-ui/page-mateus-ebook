@@ -6,10 +6,10 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <a className="brand" href="#top" aria-label={BRAND.product}>
-          <span className="brand__mark">M</span>
+          <span className="brand__mark">♚</span>
           <span className="brand__name">
             Controle Absoluto
-            <small>Protocolo</small>
+            <small>O Maestro</small>
           </span>
         </a>
         <CTAButton size="sm">Garantir agora</CTAButton>
