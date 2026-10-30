@@ -1,50 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" role="img" aria-labelledby="title desc">
   <title id="title">Protocolo Dopamina Reset</title>
   <desc id="desc">Capa premium preta e dourada do bônus Dopamina Reset.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070706"/>
-      <stop offset=".5" stop-color="#11100e"/>
-      <stop offset="1" stop-color="#050505"/>
+      <stop offset="0" stop-color="#040404"/>
+      <stop offset=".42" stop-color="#11100d"/>
+      <stop offset=".72" stop-color="#080706"/>
+      <stop offset="1" stop-color="#020202"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f1d28b"/>
-      <stop offset=".45" stop-color="#c99b45"/>
-      <stop offset="1" stop-color="#7b5420"/>
+      <stop offset="0" stop-color="#fff0b7"/>
+      <stop offset=".35" stop-color="#d6a84d"/>
+      <stop offset=".7" stop-color="#85581c"/>
+      <stop offset="1" stop-color="#f0ca6e"/>
     </linearGradient>
-    <radialGradient id="halo" cx="50%" cy="45%" r="52%">
-      <stop offset="0" stop-color="#c99b45" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#c99b45" stop-opacity="0"/>
+    <radialGradient id="halo" cx="50%" cy="46%" r="54%">
+      <stop offset="0" stop-color="#d2a44c" stop-opacity=".2"/>
+      <stop offset=".52" stop-color="#d2a44c" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
-    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".78"/>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-50%" y="-40%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#000" flood-opacity=".78"/>
     </filter>
   </defs>
 
-  <rect width="900" height="1300" fill="url(#bg)"/>
-  <rect width="900" height="1300" fill="url(#halo)"/>
-  <rect x="28" y="28" width="844" height="1244" rx="6" fill="none" stroke="#c99b45" stroke-opacity=".24"/>
+  <rect width="1000" height="1414" fill="url(#bg)"/>
+  <rect width="1000" height="1414" fill="url(#halo)"/>
+  <rect x="32" y="32" width="936" height="1350" rx="8" fill="none" stroke="#c99b45" stroke-opacity=".24" stroke-width="2"/>
 
-  <text x="450" y="115" text-anchor="middle" fill="#c99b45" font-size="22" font-family="Arial, Helvetica, sans-serif" letter-spacing="5">BÔNUS PREMIUM</text>
-  <text x="450" y="175" text-anchor="middle" fill="#efe6d5" font-size="30" font-family="Georgia, serif" letter-spacing="4">PROTOCOLO</text>
+  <text x="500" y="108" text-anchor="middle" fill="#c99b45" font-size="23" font-family="Arial, Helvetica, sans-serif" letter-spacing="7">BÔNUS PREMIUM</text>
+  <text x="500" y="168" text-anchor="middle" fill="#f0e8db" font-size="34" font-family="Georgia, serif" letter-spacing="5">PROTOCOLO</text>
 
-  <g transform="translate(450 560)" filter="url(#shadow)">
-    <circle r="230" fill="none" stroke="#c99b45" stroke-opacity=".16" stroke-width="2"/>
-    <circle r="172" fill="none" stroke="#c99b45" stroke-opacity=".3" stroke-width="2" stroke-dasharray="5 12"/>
-    <path d="M0 -138 C78 -138 138 -78 138 0 C138 78 78 138 0 138 C-78 138 -138 78 -138 0 C-138 -78 -78 -138 0 -138Z" fill="#090806" stroke="url(#gold)" stroke-width="5"/>
-    <path d="M-78 -18 C-35 -78 33 -80 79 -22" fill="none" stroke="#c99b45" stroke-opacity=".42" stroke-width="10" stroke-linecap="round"/>
-    <path d="M-78 16 C-36 72 34 77 80 18" fill="none" stroke="#c99b45" stroke-opacity=".42" stroke-width="10" stroke-linecap="round"/>
-    <path d="M-116 0 H-65" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
-    <path d="M65 0 H116" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
-    <path d="M0 -116 V-66" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
-    <path d="M0 66 V116" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
-    <circle r="23" fill="url(#gold)"/>
+  <g transform="translate(500 548)" filter="url(#shadow)">
+    <circle r="255" fill="none" stroke="#c99b45" stroke-opacity=".08" stroke-width="2"/>
+    <circle r="215" fill="none" stroke="#c99b45" stroke-opacity=".15" stroke-width="2" stroke-dasharray="4 16"/>
+    <circle r="172" fill="none" stroke="#c99b45" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 10"/>
+
+    <g opacity=".38" fill="none" stroke-linecap="round">
+      <path d="M-290 -126 C-210 -80 -150 -112 -92 -66 C-40 -25 19 -39 62 0 C118 50 174 30 262 92" stroke="#c99b45" stroke-width="8"/>
+      <path d="M-270 118 C-187 84 -135 119 -69 80 C-8 44 52 69 104 36 C160 0 210 18 286 -25" stroke="#edd08b" stroke-opacity=".34" stroke-width="5"/>
+    </g>
+
+    <g filter="url(#glow)">
+      <path d="M-122 -122 C-62 -182 62 -182 122 -122 C182 -62 182 62 122 122 C62 182 -62 182 -122 122 C-182 62 -182 -62 -122 -122 Z" fill="#090806" stroke="url(#gold)" stroke-width="5"/>
+      <path d="M-78 -32 C-35 -80 30 -87 82 -39" fill="none" stroke="#c99b45" stroke-width="11" stroke-linecap="round" stroke-opacity=".5"/>
+      <path d="M-80 12 C-32 69 37 74 86 18" fill="none" stroke="#c99b45" stroke-width="11" stroke-linecap="round" stroke-opacity=".5"/>
+      <path d="M-118 0 H-68" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M68 0 H118" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M0 -118 V-68" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M0 68 V118" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+      <circle r="24" fill="url(#gold)"/>
+    </g>
+
+    <g transform="translate(0 226) scale(.7)">
+      <path d="M-20 -93 H20 V-70 H42 V-38 H20 V-16 H-20 V-38 H-42 V-70 H-20 Z" fill="#080706" stroke="url(#gold)" stroke-width="3"/>
+      <path d="M-50 -5 C-38 -18 38 -18 50 -5 C63 7 64 25 54 39 C43 54 27 61 0 61 C-27 61 -43 54 -54 39 C-64 25 -63 7 -50 -5 Z" fill="#080706" stroke="url(#gold)" stroke-width="3"/>
+      <rect x="-66" y="58" width="132" height="21" rx="10.5" fill="#080706" stroke="url(#gold)" stroke-width="3"/>
+      <path d="M-43 79 C-44 111 -52 137 -72 173 H72 C52 137 44 111 43 79 Z" fill="#080706" stroke="url(#gold)" stroke-width="3"/>
+      <rect x="-78" y="168" width="156" height="22" rx="11" fill="#080706" stroke="url(#gold)" stroke-width="3"/>
+    </g>
   </g>
 
-  <text x="450" y="895" text-anchor="middle" fill="#f4dfa3" font-size="74" font-weight="700" font-family="Georgia, serif">DOPAMINA</text>
-  <text x="450" y="975" text-anchor="middle" fill="#f4dfa3" font-size="74" font-weight="700" font-family="Georgia, serif">RESET</text>
-  <line x1="400" x2="500" y1="1019" y2="1019" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
-  <text x="450" y="1088" text-anchor="middle" fill="#d0c4b0" font-size="24" font-family="Arial, Helvetica, sans-serif">30 dias para recuperar o controle sobre</text>
-  <text x="450" y="1125" text-anchor="middle" fill="#d0c4b0" font-size="24" font-family="Arial, Helvetica, sans-serif">estímulos, hábitos e atenção sexual.</text>
-  <text x="450" y="1248" text-anchor="middle" fill="#c99b45" font-size="17" font-family="Arial, Helvetica, sans-serif" letter-spacing="5">O MAESTRO</text>
+  <text x="500" y="965" text-anchor="middle" fill="#f4dfa3" font-size="78" font-weight="700" font-family="Georgia, serif">DOPAMINA</text>
+  <text x="500" y="1052" text-anchor="middle" fill="#f4dfa3" font-size="78" font-weight="700" font-family="Georgia, serif">RESET</text>
+  <line x1="440" x2="560" y1="1102" y2="1102" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+  <text x="500" y="1172" text-anchor="middle" fill="#d4c8b5" font-size="24" font-family="Arial, Helvetica, sans-serif">30 dias para romper o automático e recuperar</text>
+  <text x="500" y="1208" text-anchor="middle" fill="#d4c8b5" font-size="24" font-family="Arial, Helvetica, sans-serif">o controle sobre estímulo, atenção e hábitos.</text>
+  <text x="500" y="1327" text-anchor="middle" fill="#c99b45" font-size="20" font-family="Arial, Helvetica, sans-serif" letter-spacing="6">O MAESTRO</text>
 </svg>
