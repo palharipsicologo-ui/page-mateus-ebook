@@ -50,9 +50,7 @@ export default function Offer() {
           <div className="offer__price">
             <div className="offer__today">{OFFER.todayLabel}</div>
             <div className="offer__current gold-text">{PRICE.current}</div>
-            {PRICE.installments ? (
-              <div className="offer__installments">ou {PRICE.installments}</div>
-            ) : null}
+            <div className="offer__installments">{PRICE.cash}</div>
             <div className="offer__note">{PRICE.note}</div>
           </div>
 
