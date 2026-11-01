@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo do Maestro</title>
+  <desc id="desc">Rei de xadrez em mármore negro com veios dourados, acabamento premium.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="43%" r="62%">
+      <stop offset="0" stop-color="#2a1c0b"/>
+      <stop offset=".46" stop-color="#0e0b07"/>
+      <stop offset="1" stop-color="#050403"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0b5"/>
+      <stop offset=".20" stop-color="#e9bd59"/>
+      <stop offset=".48" stop-color="#9d671a"/>
+      <stop offset=".68" stop-color="#f0cb6f"/>
+      <stop offset="1" stop-color="#68400c"/>
+    </linearGradient>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".22" stop-color="#21170d"/>
+      <stop offset=".46" stop-color="#090806"/>
+      <stop offset=".72" stop-color="#2c1c0c"/>
+      <stop offset="1" stop-color="#050504"/>
+    </linearGradient>
+    <filter id="shadow" x="-35%" y="-30%" width="170%" height="185%">
+      <feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#000" flood-opacity=".86"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#c99438" flood-opacity=".25"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <clipPath id="kingClip">
+      <path d="M425 88h50v72h61v50h-61v44c52 14 92 56 92 108 0 32-14 61-38 82h37v50h-47c-2 94-26 172-66 247h101c37 0 67 30 67 67 0 18-7 35-19 47H298c-12-12-19-29-19-47 0-37 30-67 67-67h101c-40-75-64-153-66-247h-47v-50h37c-24-21-38-50-38-82 0-52 40-94 92-108v-44h-61v-50h61z"/>
+      <path d="M268 790h364c35 0 63 28 63 63v17H205v-17c0-35 28-63 63-63z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="900" rx="90" fill="url(#bgGlow)"/>
+  <rect x="22" y="22" width="856" height="856" rx="72" fill="none" stroke="url(#gold)" stroke-width="3" opacity=".72"/>
+  <circle cx="450" cy="456" r="292" fill="none" stroke="#d5a249" stroke-width="2" opacity=".34"/>
+  <circle cx="450" cy="456" r="234" fill="none" stroke="#d5a249" stroke-width="1.6" opacity=".16"/>
+  <ellipse cx="450" cy="760" rx="260" ry="54" fill="#b87b20" opacity=".13" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <g clip-path="url(#kingClip)">
+      <rect x="190" y="70" width="520" height="820" fill="url(#marble)"/>
+      <path d="M286 180C380 258 356 339 472 423c83 60 56 150 153 224" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+      <path d="M615 170c-94 94-51 166-146 248-77 67-31 143-121 220" fill="none" stroke="#dfa642" stroke-width="10" stroke-linecap="round" opacity=".96"/>
+      <path d="M310 546c78 28 96 89 141 144 34 41 90 45 135 116" fill="none" stroke="#8e5c17" stroke-width="9" stroke-linecap="round"/>
+      <path d="M485 102c-13 82-56 127-42 201 9 49 54 64 42 132" fill="none" stroke="#f6d982" stroke-width="7" stroke-linecap="round"/>
+      <path d="M352 244l18 22-12 19 28 32-17 27" fill="none" stroke="#c88626" stroke-width="4" opacity=".95"/>
+      <path d="M554 493l-22 26 12 24-31 42 20 31" fill="none" stroke="#e2b65d" stroke-width="5" opacity=".86"/>
+      <circle cx="366" cy="338" r="6" fill="#e7b755"/>
+      <circle cx="557" cy="595" r="5" fill="#f1d17a"/>
+      <circle cx="395" cy="718" r="4" fill="#c98c2e"/>
+    </g>
+
+    <path d="M425 88h50v72h61v50h-61v44c52 14 92 56 92 108 0 32-14 61-38 82h37v50h-47c-2 94-26 172-66 247h101c37 0 67 30 67 67 0 18-7 35-19 47H298c-12-12-19-29-19-47 0-37 30-67 67-67h101c-40-75-64-153-66-247h-47v-50h37c-24-21-38-50-38-82 0-52 40-94 92-108v-44h-61v-50h61z" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M268 790h364c35 0 63 28 63 63v17H205v-17c0-35 28-63 63-63z" fill="none" stroke="url(#gold)" stroke-width="7"/>
+    <path d="M330 439h240" stroke="#f3d57d" stroke-width="5" opacity=".55"/>
+    <path d="M250 786h400" stroke="#e0a940" stroke-width="5" opacity=".58"/>
+  </g>
+</svg>

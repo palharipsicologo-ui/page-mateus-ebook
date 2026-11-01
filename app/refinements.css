@@ -1,0 +1,345 @@
+/* Ajustes finais de identidade visual */
+
+.brand__mark--king {
+  width: 48px;
+  height: 48px;
+  padding: 2px;
+  overflow: hidden;
+  border-radius: 15px;
+  background: #060504;
+  border: 1px solid rgba(239,210,142,.46);
+  box-shadow: 0 9px 28px rgba(0,0,0,.42), inset 0 0 26px rgba(199,160,88,.08);
+}
+
+.brand__mark--king img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* capa principal aprovada */
+.book-real { isolation: isolate; }
+
+.book-real__book {
+  will-change: transform;
+  filter: drop-shadow(28px 36px 48px rgba(0,0,0,.72));
+}
+
+.book-real__cover {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  image-rendering: auto;
+  backface-visibility: hidden;
+  transform: translateZ(.1px);
+  border-color: rgba(239,210,142,.42);
+  box-shadow: 0 0 42px rgba(199,160,88,.08);
+  filter: none !important;
+}
+
+/* Rei do Maestro */
+.authority__seal--king {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  min-height: 410px;
+  padding: 0;
+  border-radius: 26px;
+  background: #050403;
+  border: 1px solid rgba(239,210,142,.34);
+  box-shadow: 0 34px 100px rgba(0,0,0,.42), inset 0 0 70px rgba(199,160,88,.04);
+}
+
+.authority__king-image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  min-height: 410px;
+  object-fit: cover;
+  display: block;
+  opacity: 1;
+}
+
+/* relatos */
+.testi__message {
+  background: linear-gradient(145deg, rgba(255,255,255,.025), transparent 55%), #11100d;
+}
+
+.testi__avatar {
+  font-weight: 850;
+  font-size: .8rem;
+  letter-spacing: -.02em;
+  color: #f8f1e4;
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 8px 24px rgba(0,0,0,.32);
+}
+
+.testi__avatar--1 { background: linear-gradient(135deg,#364663,#1b2434); }
+.testi__avatar--2 { background: linear-gradient(135deg,#6d4332,#2f211c); }
+.testi__avatar--3 { background: linear-gradient(135deg,#3f5c4b,#1e3027); }
+.testi__avatar--4 { background: linear-gradient(135deg,#6c5b35,#342b1b); }
+.testi__avatar--5 { background: linear-gradient(135deg,#51466c,#282238); }
+
+.testi__bubble {
+  background: #191713;
+  border-color: rgba(255,255,255,.055);
+}
+
+.testi__privacy {
+  max-width: 820px;
+  margin: 25px auto 0;
+  text-align: center;
+  color: #817767;
+  font-size: .72rem;
+  line-height: 1.55;
+}
+
+/* bônus com a capa aprovada */
+.bonus-cover-wrap {
+  width: min(300px, 100%);
+  position: relative;
+  perspective: 1400px;
+}
+
+.bonus-cover-wrap::before {
+  content: '';
+  position: absolute;
+  inset: 8% -12% -8% 12%;
+  z-index: -1;
+  background: radial-gradient(circle, rgba(238,190,84,.22), transparent 66%);
+  filter: blur(22px);
+}
+
+.bonus-cover-wrap img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  border-radius: 6px 11px 11px 6px;
+  border: 1px solid rgba(239,210,142,.42);
+  box-shadow: 22px 30px 58px rgba(0,0,0,.62);
+  transform: rotateY(-6deg) rotateX(.6deg);
+  transform-origin: center;
+  backface-visibility: hidden;
+  filter: none !important;
+}
+
+/* ouro desktop */
+.gold-text {
+  background: linear-gradient(90deg,#fff0b7 0%,#e7bd5c 48%,#ba842c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #e7bd5c;
+}
+
+.cta {
+  color: #100a02;
+  background: linear-gradient(135deg,#ffe49a 0%,#e0b34c 50%,#a96f20 100%);
+  box-shadow: 0 16px 52px rgba(224,179,76,.28);
+}
+
+.cta:hover { box-shadow: 0 22px 68px rgba(232,188,84,.38); }
+
+.sticky-cta {
+  background: rgba(7,6,4,.98) !important;
+  border-top-color: rgba(255,210,90,.34) !important;
+}
+
+.sticky-cta__price { color: #fffaf0; }
+.sticky-cta__note { color: #d2c7b5; }
+
+/* MOBILE: contraste propositalmente alto para OLED/Samsung */
+@media (max-width: 760px) {
+  :root {
+    --gold: #FFD45F !important;
+    --gold-bright: #FFE9A8 !important;
+    --gold-deep: #D99B28 !important;
+    --text: #FFF9EF !important;
+    --muted: #E0D5C5 !important;
+    --line: rgba(255,212,95,.20) !important;
+    --line-strong: rgba(255,212,95,.44) !important;
+  }
+
+  html,
+  body {
+    color-scheme: dark;
+    background: #050403 !important;
+    color: #FFF9EF !important;
+  }
+
+  .header {
+    background: #050403 !important;
+    border-bottom-color: rgba(255,212,95,.22) !important;
+  }
+
+  .brand__mark--king {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    border-color: rgba(255,225,145,.55) !important;
+  }
+
+  .brand__name {
+    color: #FFF9EF !important;
+    font-size: 1rem;
+  }
+
+  .brand__name small {
+    color: #FFD45F !important;
+    -webkit-text-fill-color: #FFD45F !important;
+  }
+
+  .hero {
+    background:
+      radial-gradient(95% 48% at 50% 5%, rgba(255,201,74,.14), transparent 72%),
+      linear-gradient(180deg,#050403 0%,#080604 58%,#050403 100%) !important;
+  }
+
+  .hero::after { opacity: .025 !important; }
+
+  .hero__eyebrow,
+  .kicker,
+  .authority__role,
+  .module__tag,
+  .module__subtitle,
+  .bonus__tag,
+  .bonus__value strong,
+  .hero__badge svg,
+  .forwhom__card--yes .forwhom__title,
+  .offer__today,
+  .offer__installments {
+    color: #FFD45F !important;
+    -webkit-text-fill-color: #FFD45F !important;
+  }
+
+  .hero__eyebrow {
+    border-color: rgba(255,212,95,.42) !important;
+    background: rgba(255,212,95,.055) !important;
+  }
+
+  .hero__title,
+  .section-title,
+  .pain__headline,
+  .authority__name,
+  .bonus__name,
+  .offer__headline,
+  .guarantee__title {
+    color: #FFF9EF !important;
+    -webkit-text-fill-color: #FFF9EF !important;
+  }
+
+  .gold-text,
+  .hero__title .gold-text {
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #FFD45F !important;
+    color: #FFD45F !important;
+    text-shadow: 0 0 18px rgba(255,212,95,.15) !important;
+  }
+
+  .hero__subtitle,
+  .section-sub,
+  .pain__paragraphs,
+  .pain__relief p,
+  .enemy__card p,
+  .module__hook,
+  .forwhom__item,
+  .authority__text,
+  .pillar__text,
+  .testi__bubble,
+  .bonus-feature__copy .bonus__desc,
+  .bonus__foot,
+  .payment__text,
+  .guarantee__text,
+  .faq__a,
+  .cta-sub {
+    color: #E0D5C5 !important;
+    -webkit-text-fill-color: #E0D5C5 !important;
+  }
+
+  .hero__badge,
+  .module__name,
+  .pillar__title,
+  .forwhom__title,
+  .testi__name,
+  .offer__stack,
+  .offer__current,
+  .sticky-cta__price {
+    color: #FFF9EF !important;
+    -webkit-text-fill-color: #FFF9EF !important;
+  }
+
+  .cta,
+  .hero__cta .cta,
+  .sticky-cta .cta {
+    background: #F4C64F !important;
+    background-image: none !important;
+    color: #090601 !important;
+    -webkit-text-fill-color: #090601 !important;
+    border: 1px solid #FFE394 !important;
+    box-shadow: 0 10px 30px rgba(244,198,79,.27) !important;
+    filter: none !important;
+  }
+
+  .sticky-cta {
+    background: #070503 !important;
+    border-top: 1px solid rgba(255,212,95,.38) !important;
+  }
+
+  .sticky-cta__note {
+    color: #D9CDBB !important;
+    -webkit-text-fill-color: #D9CDBB !important;
+  }
+
+  .book-real--md { width: min(340px,88vw) !important; }
+  .book-real__book {
+    transform: rotateY(-3deg) rotateX(.2deg) !important;
+    filter: drop-shadow(14px 24px 34px rgba(0,0,0,.72)) !important;
+  }
+  .book-real__pages { right: -8px; width: 10px; opacity: .72; }
+  .book-real__cover { filter: none !important; }
+
+  .authority__seal--king {
+    min-height: 0;
+    aspect-ratio: 1 / 1;
+    border-radius: 22px;
+    border-color: rgba(255,212,95,.30) !important;
+  }
+
+  .authority__king-image {
+    min-height: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: none !important;
+  }
+
+  .bonus-cover-wrap { width: min(300px,82vw); }
+  .bonus-cover-wrap img {
+    transform: rotateY(-2deg) !important;
+    box-shadow: 14px 24px 44px rgba(0,0,0,.58);
+    filter: none !important;
+  }
+
+  .section-divider { background: linear-gradient(90deg,transparent,rgba(255,212,95,.38),transparent) !important; }
+  .module--teaser,
+  .enemy__card,
+  .forwhom__card,
+  .testi__message,
+  .bonus-feature,
+  .offer__card,
+  .faq__item {
+    border-color: rgba(255,212,95,.20) !important;
+  }
+}

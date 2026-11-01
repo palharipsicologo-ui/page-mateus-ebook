@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1300" role="img" aria-labelledby="title desc">
+  <title id="title">Protocolo Controle Absoluto</title>
+  <desc id="desc">Capa premium preta e dourada com rei de xadrez em mármore negro.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030303"/>
+      <stop offset=".38" stop-color="#110b05"/>
+      <stop offset=".68" stop-color="#070605"/>
+      <stop offset="1" stop-color="#020202"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3c4"/>
+      <stop offset=".18" stop-color="#f0c85f"/>
+      <stop offset=".48" stop-color="#9e6719"/>
+      <stop offset=".7" stop-color="#f3d47c"/>
+      <stop offset="1" stop-color="#6d430c"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030303"/>
+      <stop offset=".22" stop-color="#25170b"/>
+      <stop offset=".48" stop-color="#070605"/>
+      <stop offset=".72" stop-color="#2d1b0a"/>
+      <stop offset="1" stop-color="#030303"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="52%" r="52%">
+      <stop offset="0" stop-color="#d89a32" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#d89a32" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-35%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000" flood-opacity=".9"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#d5a044" flood-opacity=".28"/>
+    </filter>
+    <clipPath id="kingClip">
+      <path d="M425 410h50v62h54v44h-54v34c49 13 86 50 86 98 0 29-13 56-36 75h34v45h-43c-2 79-24 147-60 211h91c33 0 60 27 60 60 0 15-6 30-17 41H310c-11-11-17-26-17-41 0-33 27-60 60-60h91c-36-64-58-132-60-211h-43v-45h34c-23-19-36-46-36-75 0-48 37-85 86-98v-34h-54v-44h54z"/>
+      <path d="M278 1014h344c31 0 56 25 56 56v14H222v-14c0-31 25-56 56-56z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="1300" fill="url(#bg)"/>
+  <rect x="25" y="25" width="850" height="1250" rx="5" fill="none" stroke="url(#gold)" stroke-width="2.6" opacity=".8"/>
+  <rect x="43" y="43" width="814" height="1214" rx="4" fill="none" stroke="#c38b32" stroke-width="1" opacity=".22"/>
+
+  <path d="M-90 1010C120 870 270 952 432 860c161-92 286-31 558-190" fill="none" stroke="#8e631e" stroke-width="74" opacity=".13"/>
+  <path d="M-50 1130C168 994 305 1082 480 982c173-99 295-44 520-159" fill="none" stroke="#d7a449" stroke-width="38" opacity=".08"/>
+  <path d="M-100 360C150 260 260 322 408 258c184-80 302-38 566-150" fill="none" stroke="#a57626" stroke-width="52" opacity=".06"/>
+
+  <text x="450" y="96" text-anchor="middle" fill="#d8a64a" font-size="19" font-family="Arial, Helvetica, sans-serif" letter-spacing="6">UM PERCURSO PRÁTICO DE 30 DIAS</text>
+  <line x1="140" x2="288" y1="159" y2="159" stroke="#bb8130" stroke-width="2"/>
+  <line x1="612" x2="760" y1="159" y2="159" stroke="#bb8130" stroke-width="2"/>
+  <text x="450" y="176" text-anchor="middle" fill="#f3ede4" font-size="31" font-family="Georgia, serif" letter-spacing="7">PROTOCOLO</text>
+
+  <text x="450" y="292" text-anchor="middle" fill="url(#gold)" font-size="83" font-weight="700" font-family="Georgia, serif">CONTROLE</text>
+  <text x="450" y="380" text-anchor="middle" fill="url(#gold)" font-size="83" font-weight="700" font-family="Georgia, serif">ABSOLUTO</text>
+  <line x1="292" x2="608" y1="416" y2="416" stroke="url(#gold)" stroke-width="3.2"/>
+
+  <rect x="72" y="442" width="756" height="642" fill="url(#halo)"/>
+  <ellipse cx="450" cy="1045" rx="225" ry="56" fill="#d29a34" opacity=".11"/>
+
+  <g filter="url(#shadow)">
+    <g clip-path="url(#kingClip)">
+      <rect x="205" y="390" width="490" height="715" fill="url(#stone)"/>
+      <path d="M295 468c90 74 76 144 178 218 74 54 57 129 139 198" fill="none" stroke="url(#gold)" stroke-width="15" stroke-linecap="round"/>
+      <path d="M610 463c-82 84-50 147-132 219-69 59-34 125-112 191" fill="none" stroke="#daa13b" stroke-width="8" stroke-linecap="round" opacity=".95"/>
+      <path d="M316 772c72 25 89 78 130 128 31 38 82 43 123 102" fill="none" stroke="#895918" stroke-width="7" stroke-linecap="round"/>
+      <path d="M490 407c-12 72-49 112-38 176 8 43 47 57 38 115" fill="none" stroke="#f2d67c" stroke-width="6" stroke-linecap="round"/>
+      <path d="M347 556l18 24-12 20 28 33-17 27" fill="none" stroke="#c48224" stroke-width="4"/>
+      <path d="M555 675l-20 25 12 23-30 40 19 30" fill="none" stroke="#e2b35a" stroke-width="5"/>
+      <circle cx="366" cy="650" r="5" fill="#e9ba59"/>
+      <circle cx="556" cy="850" r="4" fill="#f0ca6b"/>
+    </g>
+    <path d="M425 410h50v62h54v44h-54v34c49 13 86 50 86 98 0 29-13 56-36 75h34v45h-43c-2 79-24 147-60 211h91c33 0 60 27 60 60 0 15-6 30-17 41H310c-11-11-17-26-17-41 0-33 27-60 60-60h91c-36-64-58-132-60-211h-43v-45h34c-23-19-36-46-36-75 0-48 37-85 86-98v-34h-54v-44h54z" fill="none" stroke="url(#gold)" stroke-width="6.3" stroke-linejoin="round"/>
+    <path d="M278 1014h344c31 0 56 25 56 56v14H222v-14c0-31 25-56 56-56z" fill="none" stroke="url(#gold)" stroke-width="6.3"/>
+  </g>
+
+  <text x="450" y="1160" text-anchor="middle" fill="#f1e7d6" font-size="27" font-family="Georgia, serif">Desenvoltura sexual. Percepção, posições</text>
+  <text x="450" y="1197" text-anchor="middle" fill="#f1e7d6" font-size="27" font-family="Georgia, serif">e condução em parceria.</text>
+  <line x1="292" x2="360" y1="1242" y2="1242" stroke="#c38d34" stroke-width="2"/>
+  <line x1="540" x2="608" y1="1242" y2="1242" stroke="#c38d34" stroke-width="2"/>
+  <text x="450" y="1250" text-anchor="middle" fill="#d5a14a" font-size="18" font-family="Arial, Helvetica, sans-serif" letter-spacing="7">O MAESTRO</text>
+</svg>

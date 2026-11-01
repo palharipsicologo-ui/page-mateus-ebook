@@ -6,10 +6,12 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <a className="brand" href="#top" aria-label={BRAND.product}>
-          <span className="brand__mark">M</span>
+          <span className="brand__mark brand__mark--king brand__mark--exact">
+            <img src="/maestro-king-hq.webp?v=20261101-6" width="1536" height="1536" alt="Símbolo do Maestro" />
+          </span>
           <span className="brand__name">
             Controle Absoluto
-            <small>Protocolo</small>
+            <small>O Maestro</small>
           </span>
         </a>
         <CTAButton size="sm">Garantir agora</CTAButton>

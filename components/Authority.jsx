@@ -6,11 +6,8 @@ export default function Authority() {
     <section className="section authority">
       <div className="container">
         <div className="authority__inner">
-          <Reveal className="authority__seal">
-            <div className="authority__seal-inner">
-              <span className="m">M</span>
-              <span className="label">O Maestro</span>
-            </div>
+          <Reveal className="authority__seal authority__seal--king authority__seal--exact" aria-label="Símbolo do Maestro: rei de xadrez">
+            <img className="authority__king-image authority__king-image--exact" src="/maestro-king-hq.webp?v=20261101-6" width="1536" height="1536" alt="Rei de xadrez preto e dourado, símbolo do Maestro" />
           </Reveal>
 
           <Reveal>

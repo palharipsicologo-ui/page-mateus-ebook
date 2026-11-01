@@ -4,9 +4,6 @@ import { useEffect, useState } from 'react'
 import CTAButton from './CTAButton.jsx'
 import { PRICE } from '../data/content.js'
 
-/* Barra fixa no rodapé (apenas no mobile). Aparece depois que o usuário rola
-   para baixo do hero e some quando a própria seção de oferta está na tela
-   (para não cobrir o botão de lá). */
 export default function StickyCTA() {
   const [scrolled, setScrolled] = useState(false)
   const [offerInView, setOfferInView] = useState(false)
@@ -36,7 +33,7 @@ export default function StickyCTA() {
     <div className={`sticky-cta ${visible ? 'is-visible' : ''}`} aria-hidden={!visible}>
       <div className="sticky-cta__info">
         <span className="sticky-cta__price">{PRICE.current}</span>
-        <span className="sticky-cta__note">acesso imediato</span>
+        <span className="sticky-cta__note">{PRICE.cash}</span>
       </div>
       <CTAButton size="sm">Garantir agora</CTAButton>
     </div>

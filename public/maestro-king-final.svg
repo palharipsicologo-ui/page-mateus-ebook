@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+  <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#F0D86F"/><stop offset=".45" stop-color="#D4AA3F"/><stop offset="1" stop-color="#9A6F13"/></linearGradient>
+  <linearGradient id="marble" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1A1A1A"/><stop offset=".48" stop-color="#050505"/><stop offset="1" stop-color="#161109"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#D4AA3F" stop-opacity=".15"/><stop offset=".65" stop-color="#D4AA3F" stop-opacity=".035"/><stop offset="1" stop-color="#D4AA3F" stop-opacity="0"/></radialGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000" flood-opacity=".95"/></filter>
+</defs>
+<rect width="1200" height="1200" fill="#050505"/>
+<circle cx="600" cy="600" r="455" fill="url(#halo)"/>
+<circle cx="600" cy="600" r="370" fill="none" stroke="#D4AA3F" stroke-opacity=".45" stroke-width="3"/>
+<g filter="url(#shadow)">
+  <path d="M600 170 l-78 0 0 55 -56 0 0 64 56 0 0 55 78 0 0-55 56 0 0-64-56 0z" fill="url(#gold)" stroke="#F3DB77" stroke-width="4"/>
+  <ellipse cx="600" cy="405" rx="138" ry="48" fill="#090909" stroke="#D4AA3F" stroke-width="10"/>
+  <path d="M492 430 C510 510 535 585 540 660 C546 745 510 835 480 930 L720 930 C690 835 654 745 660 660 C665 585 690 510 708 430 Z" fill="url(#marble)" stroke="#D4AA3F" stroke-width="10"/>
+  <ellipse cx="600" cy="930" rx="188" ry="56" fill="#090909" stroke="#D4AA3F" stroke-width="10"/>
+  <ellipse cx="600" cy="990" rx="230" ry="72" fill="#111" stroke="#D4AA3F" stroke-width="10"/>
+  <rect x="380" y="1020" width="440" height="58" rx="20" fill="#080808" stroke="#D4AA3F" stroke-width="10"/>
+  <path d="M520 500 C575 550 600 620 680 675" fill="none" stroke="#F0D86F" stroke-width="14" stroke-linecap="round"/>
+  <path d="M655 470 C595 610 560 760 525 885" fill="none" stroke="#B58417" stroke-width="10" stroke-linecap="round"/>
+  <path d="M570 440 C615 565 635 705 690 860" fill="none" stroke="#D4AA3F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M515 720 C590 750 625 810 700 845" fill="none" stroke="#F0D86F" stroke-width="7" stroke-linecap="round"/>
+</g>
+</svg>

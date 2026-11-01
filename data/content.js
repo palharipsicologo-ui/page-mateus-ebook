@@ -1,326 +1,291 @@
 /* =========================================================================
-   CONFIGURAÇÃO E CONTEÚDO DA LANDING PAGE
-   -------------------------------------------------------------------------
-   Tudo que você precisa editar no dia a dia está AQUI. Não precisa mexer no
-   resto do código. Troque preço, link de checkout, textos e depoimentos
-   abaixo e a página atualiza sozinha.
+   COPY DA LANDING PAGE - PROTOCOLO CONTROLE ABSOLUTO
    ========================================================================= */
 
-/* >>> COLE AQUI O SEU LINK DE CHECKOUT (Kiwify / Hotmart / etc.) <<<
-   Enquanto não tiver, deixe "#comprar" — os botões só rolam a página.
-   Ex.: "https://pay.kiwify.com.br/abc123"  ou  "https://go.hotmart.com/XXXXX" */
-export const CHECKOUT_URL = '#comprar'
+export const CHECKOUT_URL = 'https://pay.kiwify.com.br/UzFXi1v'
 
-/* Preço (a âncora agora é o "Valor total" do stack, em OFFER abaixo) */
 export const PRICE = {
-  current: 'R$ 47',       // preço final que o cliente paga
-  installments: '12x de R$ 4,79', // parcelamento (ajuste conforme a plataforma)
-  note: 'pagamento único · acesso imediato e vitalício',
+  current: '12x de R$ 4,79',
+  cash: 'ou R$ 47,90 à vista',
+  note: 'acesso imediato e vitalício',
 }
 
-/* Marca */
 export const BRAND = {
-  product: 'Protocolo: Controle Absoluto',
+  product: 'Protocolo Controle Absoluto',
   author: 'O Maestro',
-  supportEmail: 'suporte@controleabsoluto.com.br', // troque pelo seu e-mail real
-  cnpj: '00.000.000/0001-00', // troque pelo seu CNPJ real
+  supportEmail: 'protocolodecontroleabsoluto@gmail.com',
   year: 2026,
 }
 
-/* ---------------------------- HERO ---------------------------- */
 export const HERO = {
-  eyebrow: 'E-BOOK DIGITAL · MÉTODO DE 30 DIAS',
-  title: 'Decida quando o sexo termina.',
-  titleHighlight: 'E seja o melhor que ela já teve.',
+  eyebrow: 'PROTOCOLO DE DESEMPENHO MASCULINO · 30 DIAS',
+  title: 'Quando a pressão sobe,',
+  titleHighlight: 'você assume o comando.',
   subtitle:
-    'O protocolo de 30 dias que treina a sua mente e o seu corpo para você durar o quanto quiser — mesmo que você já tenha tentado de tudo. Sem sprays anestésicos, sem remédios, sem "pensar no boleto".',
-  badges: ['Acesso imediato', '100% sigiloso', 'Garantia de 7 dias'],
-  ctaPrimary: 'QUERO O CONTROLE ABSOLUTO',
-  reassurance: 'E-book em PDF · leia no celular ou no computador',
+    'Pare de transformar sexo em teste. Aprenda a reconhecer a excitação antes da urgência, conduzir o ritmo, atravessar oscilações da ereção e entrar no jogo com postura, repertório e presença.',
+  badges: ['Controle da excitação', 'Confiança e ereção', 'Condução e repertório', 'Garantia de 7 dias'],
+  ctaPrimary: 'QUERO PARAR DE SER REFÉM',
+  reassurance: 'Acesso imediato · Protocolo + bônus · leitura no celular ou computador',
 }
 
-/* ----------------------- DOR / IDENTIFICAÇÃO (PAS) ----------------------- */
 export const PAIN = {
-  kicker: 'A TESTEMUNHA DO FRACASSO',
-  headline: 'Você não tem medo de ejacular rápido.\nVocê tem medo de quem está assistindo.',
+  kicker: 'O QUE REALMENTE TE INCOMODA',
+  headline: 'Não é só gozar rápido. É o medo de falhar na hora em que você mais quer impressionar.',
   paragraphs: [
-    'Se você estivesse sozinho e acontecesse em 2 minutos, você limparia, viraria para o lado e dormiria. O problema nunca foi o tempo. O problema é o silêncio constrangedor que vem depois. O problema é o olhar dela.',
-    'É aquele fantasma que assombra o seu travesseiro: "Se eu não fizer o serviço bem feito, outro vai fazer." Esse medo cria a Ansiedade de Performance — e, ironicamente, é justamente ele que faz o seu corpo acelerar e disparar antes da hora.',
+    'Você sabe como é. Começa a ficar bom e, em vez de curtir, sua cabeça entra em contagem regressiva: “será que eu vou durar?”, “será que a ereção vai cair?”, “será que ela percebeu?”. Quanto mais você tenta provar que dá conta, menos livre você fica.',
+    'Aí o sexo vira prova. Você acelera quando queria prolongar, evita uma pausa para não parecer inseguro e entra na próxima vez carregando o peso da anterior. O problema deixa de ser só o que o corpo faz — passa a ser o quanto isso manda em você.',
   ],
-  reliefTitle: 'Não é fraqueza. É química.',
+  reliefTitle: 'Você não precisa de mais sorte. Precisa de repertório.',
   reliefText:
-    'Quando a ansiedade bate, seu cérebro inunda o sangue de adrenalina e cortisol. Ele entende o sexo como perigo, não prazer: desvia o sangue do pênis e deixa o gatilho da ejaculação 10x mais sensível. Tentar "segurar" gera a tensão que faz você gozar rápido. É um ciclo — e ciclo se quebra com método, não com força de vontade.',
+    'O Controle Absoluto foi construído para transformar pressa em leitura, ansiedade em ação e improviso em condução. Você aprende o que fazer antes, durante e depois dos momentos em que normalmente perde o eixo.',
 }
 
-/* ----------------------- INIMIGO COMUM ----------------------- */
 export const ENEMY = {
-  kicker: 'POR QUE NADA FUNCIONOU ATÉ AGORA',
-  headline: 'Os "truques" da internet só mascaram o sintoma.',
+  kicker: 'ATALHO NÃO CRIA DOMÍNIO',
+  headline: 'Se a solução depende de anestesiar, distrair ou torcer, você continua refém.',
   items: [
     {
-      wrong: 'Sprays e pomadas anestésicas',
-      why: 'Tiram a sua sensibilidade (e a dela), matam o tesão e o problema volta na próxima vez.',
+      wrong: 'Spray que apaga a sensação',
+      why: 'Você até sente menos — mas continua sem saber o que fazer quando a excitação sobe, a pressão aparece ou a situação muda.',
     },
     {
-      wrong: 'Pensar em futebol, contas, coisas chatas',
-      why: 'Manda sinal de tédio ao cérebro. Você troca a ejaculação precoce pela perda de ereção.',
+      wrong: 'Pensar em qualquer coisa menos nela',
+      why: 'Você foge do próprio prazer para tentar sobreviver ao sexo. Isso não é controle. É distração com medo.',
     },
     {
-      wrong: 'Pílulas e "soluções milagrosas"',
-      why: 'Atacam um sintoma que não é químico-hormonal na maioria dos casos. Custam caro e não ensinam controle.',
+      wrong: 'Cronometrar cada minuto',
+      why: 'Enquanto você olha para o relógio, transforma prazer em avaliação. O objetivo é ganhar leitura e condução, não viver preso ao placar.',
     },
   ],
   conclusion:
-    'A ejaculação precoce tem duas raízes — a sua mente e o seu corpo. O Protocolo age nas duas ao mesmo tempo. Por isso funciona quando o resto falha.',
+    'O homem que depende de truque entra torcendo. O homem que tem repertório entra sabendo como conduzir.',
 }
 
-/* ----------------------- ANTES x DEPOIS ----------------------- */
 export const TRANSFORM = {
-  kicker: 'O ANTES E O DEPOIS',
-  headline: 'A diferença que 30 dias de protocolo fazem',
+  kicker: 'A VIRADA DE CHAVE',
+  headline: 'De refém da situação para Regente da Orquestra.',
   before: {
-    title: 'Hoje, sem o protocolo',
+    title: 'Sem o Protocolo',
     items: [
-      'O coração dispara antes mesmo de tirar a roupa',
-      'Acaba em poucos minutos e finge que está tudo bem',
-      'Vive com medo de ser comparado com o ex dela',
-      'Evita transar para não passar vergonha',
-      'O sexo virou uma prova, não um prazer',
+      'Você não confia no próprio desempenho',
+      'Sexo vira uma prova — não uma diversão',
+      'Tem medo de ejacular cedo, perder a ereção ou decepcionar',
+      'Fica lendo o rosto dela para descobrir se “foi suficiente”',
+      'Cada experiência ruim pesa na próxima',
     ],
   },
   after: {
-    title: 'Depois do protocolo',
+    title: 'Quando você assume a regência',
     items: [
-      'Você deita na cama calmo e no comando',
-      'Decide a hora de terminar: 20, 30, 40 minutos',
-      'Olha nos olhos dela com segurança absoluta',
-      'Vira o homem que ela não consegue esquecer',
-      'O sexo volta a ser playground, não palco de julgamento',
+      'Entra mais confiante porque sabe o que fazer quando a excitação sobe',
+      'Conduz ritmo, pausas, posições e mudanças com mais presença',
+      'Para de tratar qualquer oscilação da ereção como fim do jogo',
+      'Usa percepção e técnica para prolongar o prazer quando quer continuar',
+      'Transforma desempenho em diversão — e deixa de entrar em campo derrotado',
     ],
   },
 }
 
-/* ----------------------- O QUE VOCÊ VAI DOMINAR (módulos) ----------------------- */
 export const MODULES = {
-  kicker: 'O QUE VOCÊ VAI DOMINAR',
-  headline: '3 módulos. 12 capítulos. Um sistema completo.',
+  kicker: 'O MÉTODO',
+  headline: 'Você não precisa decorar um manual. Precisa dominar as alavancas certas.',
   subhead:
-    'Nada de teoria solta. Cada capítulo termina com uma "Ação do Dia" prática para você treinar e ver evolução real.',
+    'O percurso foi dividido nas frentes que mais pesam quando um homem perde confiança, controle e presença. Você aprende o suficiente para agir — sem depender de sorte ou improviso.',
   list: [
     {
-      tag: 'MÓDULO 01',
-      name: 'O Software',
-      subtitle: 'A Mente Blindada',
-      chapters: [
-        'O inimigo na sua cabeça (o loop cortisol-adrenalina)',
-        'A Dissociação Tática (a técnica do observador)',
-        'A Mentalidade de Abundância (o fim do medo de perder)',
-      ],
+      tag: 'FRENTE 01',
+      name: 'Corpo sob comando',
+      subtitle: 'Função pélvica e coordenação.',
+      hook: 'Construa uma base corporal mais organizada para responder sem tensão, desespero ou força bruta.',
     },
     {
-      tag: 'MÓDULO 02',
-      name: 'O Hardware',
-      subtitle: 'A Engenharia do Corpo',
-      chapters: [
-        'A Anatomia Oculta (o músculo que trava o gatilho)',
-        'O Treino de Kegel Progressivo (plano de 30 dias)',
-        'O Bloqueio Neural Pélvico (a trava de emergência)',
-      ],
+      tag: 'FRENTE 02',
+      name: 'Domínio da excitação',
+      subtitle: 'Percepção ejaculatória.',
+      hook: 'Aprenda a perceber antes do ponto em que parece tarde demais — e a usar pausa e retomada com intenção.',
     },
     {
-      tag: 'MÓDULO 03',
-      name: 'O Maestro',
-      subtitle: 'A Regência do Ato',
-      chapters: [
-        'A Escala de Excitação (como "surfar o 8")',
-        'A Respiração do Comandante (o hack do nervo vago)',
-        'O Mapa das Posições de Controle',
-        'As Preliminares Reversas (o jogo ganho antes de começar)',
-        'O Mapa do Tesouro (a verdadeira anatomia do prazer dela)',
-        'Aftercare e Gestão de Crise (o que fazer se falhar)',
-      ],
+      tag: 'FRENTE 03',
+      name: 'Ereção e resistência',
+      subtitle: 'Saúde erétil e condicionamento.',
+      hook: 'Pare de tratar a ereção como loteria e cuide dos fatores que sustentam resposta, resistência e confiança.',
+    },
+    {
+      tag: 'FRENTE 04',
+      name: 'Cabeça de aço',
+      subtitle: 'Ansiedade de desempenho.',
+      hook: 'Quebre o ciclo de previsão de fracasso, pressa e autocobrança que sabota a experiência antes mesmo de ela engrenar.',
+    },
+    {
+      tag: 'FRENTE 05',
+      name: 'Condução',
+      subtitle: 'Iniciativa, posições e parceria.',
+      hook: 'Saiba propor, variar, ajustar e conduzir sem parecer perdido nem transformar intimidade em um roteiro robótico.',
+    },
+    {
+      tag: 'FRENTE 06',
+      name: 'Regência',
+      subtitle: 'Integração do repertório.',
+      hook: 'Junte corpo, percepção e presença para chegar ao encontro com um plano — não com uma oração.',
     },
   ],
 }
 
-/* ----------------------- PARA QUEM É / NÃO É ----------------------- */
 export const FOR_WHOM = {
-  kicker: 'ISSO É PARA VOCÊ?',
-  isFor: {
-    title: 'É para você se...',
-    items: [
-      'Quer parar de ser refém da ansiedade de performance',
-      'Está disposto a 30 dias de treino consistente',
-      'Quer recuperar a confiança dentro e fora da cama',
-      'Cansou de soluções que só mascaram o problema',
-    ],
-  },
+  kicker: 'ESCOLHA O SEU LADO',
   isNotFor: {
     title: 'NÃO é para você se...',
     items: [
-      'Procura uma pílula mágica que resolve em 5 minutos',
-      'Não está disposto a praticar os exercícios',
-      'Quer resultado sem mudar nada do que faz hoje',
+      'Acha que desempenho não importa e está satisfeito em deixar tudo no acaso',
+      'Poucos minutos bastam e a experiência da parceira não é sua preocupação',
+      'Prefere procurar mais um truque rápido do que treinar qualquer habilidade',
+      'Não quer olhar para ansiedade, ereção, excitação ou condução com seriedade',
+    ],
+  },
+  isFor: {
+    title: 'É para você se...',
+    items: [
+      'Quer parar de ter medo de ejacular antes da hora',
+      'Quer ter mais domínio sobre excitação, ritmo e continuidade',
+      'Quer lidar melhor com a ereção sem entrar em pânico quando ela oscila',
+      'Quer se divertir no sexo em vez de passar a noite se avaliando',
+      'Quer impressionar pela presença, iniciativa e condução — não pela sorte',
     ],
   },
 }
 
-/* ----------------------- AUTORIDADE ----------------------- */
 export const AUTHORITY = {
-  kicker: 'QUEM CRIOU O MÉTODO',
+  kicker: 'QUEM ESTÁ POR TRÁS DO MÉTODO',
   name: 'O Maestro',
   role: 'Criador do Protocolo Controle Absoluto',
   paragraphs: [
-    'O Maestro não vende "dicas de internet" nem promessas vazias. O Protocolo nasceu de um princípio simples: a ejaculação precoce não é um defeito de caráter — é fisiologia mal treinada. E fisiologia se treina.',
-    'Cada técnica deste e-book é construída sobre o funcionamento real do corpo: o sistema nervoso, o nervo vago, o músculo pubococcígeo, o arco reflexo da ejaculação. Não é sobre "aguentar". É sobre reprogramar o sistema — a mente blindada, o corpo treinado e o ato sob regência.',
+    'O Maestro parte de uma premissa simples: sexo ruim não se corrige com superstição. Quando você entende o que acontece no corpo, lê a excitação mais cedo e sabe como conduzir, deixa de reagir como quem está apagando incêndio.',
+    'O Controle Absoluto reúne treino corporal, percepção, resposta à ansiedade e condução em um único percurso. A ideia é simples: você não entra para “ver no que dá”. Entra com repertório para perceber, decidir e agir.',
   ],
   pillars: [
-    { title: 'Fisiologia', text: 'Mecanismos reais do corpo, não achismo.' },
-    { title: 'Método', text: 'Um plano de 30 dias, passo a passo.' },
-    { title: 'Prática', text: 'Uma "Ação do Dia" em cada capítulo.' },
+    { title: 'Domínio', text: 'Parar de ser arrastado pela urgência e começar a agir antes dela.' },
+    { title: 'Presença', text: 'Sair da própria cabeça e voltar para o que está acontecendo de verdade.' },
+    { title: 'Regência', text: 'Conduzir ritmo, pausas, mudanças e imprevistos sem perder o eixo.' },
   ],
 }
 
-/* ----------------------- DEPOIMENTOS (ILUSTRATIVOS) ----------------------- */
-/* ATENÇÃO: estes depoimentos são ILUSTRATIVOS (exemplos). A página deixa isso
-   visível. Assim que você tiver relatos/prints reais de clientes, substitua o
-   texto abaixo e remova a flag "illustrative" para tirar o selo de exemplo. */
 export const TESTIMONIALS = {
-  kicker: 'O QUE OS HOMENS DIZEM',
-  headline: 'A virada de chave de quem aplicou',
-  illustrative: true,
+  kicker: 'RELATOS DE QUEM APLICOU',
+  headline: 'Eles compraram. Aplicaram. E foi isso que mandaram depois.',
+  illustrative: false,
   items: [
     {
-      name: 'R. M., 34 anos',
-      city: 'São Paulo · SP',
-      text:
-        'Eu já tinha tentado spray, tinha tentado de tudo. O que mudou o jogo foi entender a Escala de Excitação. Pela primeira vez eu soube exatamente quando frear. Não é mágica, é treino — e funcionou.',
+      name: 'Comprador do Protocolo',
+      city: 'Mensagem recebida',
+      text: 'Pô cara, isso é muito bom! A gata ficou impressionada comigo e já quer de novo, valeu demais!',
     },
     {
-      name: 'L. F., 28 anos',
-      city: 'Belo Horizonte · MG',
-      text:
-        'A parte da Mentalidade de Abundância destravou a minha cabeça. A ansiedade caiu absurdamente e o resto veio junto. Hoje eu chego na cama tranquilo, não com medo.',
+      name: 'Comprador do Protocolo',
+      city: 'Mensagem recebida',
+      text: 'Muito tranquilo pra compreender e principalmente muito prático. Junto com o Código da Atração eu vou virar uma máquina rsrs.',
     },
     {
-      name: 'A. C., 41 anos',
-      city: 'Curitiba · PR',
-      text:
-        'O treino do músculo PC em 30 dias foi o que faltava. Hoje eu tenho um "freio" que eu controlo. Minha esposa percebeu a diferença na primeira semana.',
+      name: 'Comprador do Protocolo',
+      city: 'Mensagem recebida',
+      text: 'Quase perdi o namoro, ela quis saber onde eu aprendi tudo isso do nada kkkkkkkk, mas valeu a pena!',
+    },
+    {
+      name: 'Comprador do Protocolo',
+      city: 'Mensagem recebida',
+      text: 'O maior benefício pra mim foi a resistência de ereção e tempo. Consigo me divertir agora.',
+    },
+    {
+      name: 'Comprador do Protocolo',
+      city: 'Mensagem recebida',
+      text: 'Impressionante a mudança conforme o guia vai avançando, é notável a diferença. Ótimo produto, espero que faça mais.',
     },
   ],
 }
 
-/* ----------------------- BÔNUS ----------------------- */
-/* Estes bônus são MATERIAIS QUE VOCÊ CONSEGUE ENTREGAR, pois saem do próprio
-   conteúdo do e-book (você só precisa montar cada PDF de apoio uma vez).
-   Entregue-os junto com o e-book no mesmo acesso da plataforma. */
 export const BONUS = {
-  kicker: 'BÔNUS EXCLUSIVOS',
-  headline: 'E você ainda leva 3 ferramentas de bolso',
+  kicker: 'BÔNUS PREMIUM INCLUSO',
+  headline: 'Seu segundo protocolo: Dopamina Reset',
   subhead:
-    'Materiais práticos para usar na hora H — inclusos, sem custo adicional, no mesmo acesso.',
+    'Se pornografia, estímulo digital e busca por novidade estão roubando presença e alimentando o automático, você recebe um plano separado para cortar esse circuito e voltar a escolher onde sua atenção sexual vai parar.',
   items: [
     {
-      name: 'Cartão de Emergência',
-      desc: 'Resumo de 1 página com as 3 travas para usar no momento crítico: o Bloqueio Neural Pélvico, a Respiração 4-2-6 e a Dissociação Tática. Para consultar em segundos quando a urgência subir.',
-      value: 'R$ 37',
-    },
-    {
-      name: 'Checklist dos 30 Dias',
-      desc: 'O plano de treino do músculo PC organizado semana a semana, com caixinhas para marcar. Terceirize a disciplina e nunca perca o ritmo da evolução.',
-      value: 'R$ 27',
-    },
-    {
-      name: 'Guia da Escala de Excitação',
-      desc: 'O mapa de 0 a 10 do prazer masculino num guia rápido: saiba quando acelerar, quando frear e como "surfar o 8" sem cruzar o ponto de não retorno.',
-      value: 'R$ 27',
+      name: 'Dopamina Reset · 30 dias',
+      desc: 'Um plano prático para interromper o consumo automático de pornografia, reduzir gatilhos, reorganizar o ambiente e recuperar escolha sobre estímulo, atenção e sexualidade.',
+      value: 'R$ 50',
     },
   ],
-  footnote: 'Os bônus são entregues junto com o e-book, no mesmo acesso.',
+  footnote: 'Incluído no mesmo acesso, sem custo adicional.',
 }
 
-/* ----------------------- OFERTA (com âncora de valor / stack) ----------------------- */
 export const OFFER = {
-  kicker: 'A SUA DECISÃO',
-  headline: 'Quanto vale parar de ter medo da cama?',
-  stackTitle: 'Tudo o que você recebe hoje:',
-  /* O "value stack": cada item com seu valor. A soma forma a âncora (totalValue). */
+  kicker: 'A HORA DE DECIDIR',
+  headline: 'A ansiedade pode continuar regendo a noite. Ou você pode assumir a batuta.',
+  stackTitle: 'Você recebe agora:',
   stack: [
-    { label: 'E-book "Protocolo: Controle Absoluto" — 77 páginas, 12 capítulos', value: 'R$ 97' },
-    { label: 'Bônus 01 — Cartão de Emergência', value: 'R$ 37', bonus: true },
-    { label: 'Bônus 02 — Checklist dos 30 Dias', value: 'R$ 27', bonus: true },
-    { label: 'Bônus 03 — Guia da Escala de Excitação', value: 'R$ 27', bonus: true },
+    { label: 'Protocolo Controle Absoluto — método completo de desempenho e condução', value: 'R$ 147' },
+    { label: 'Bônus Premium — Protocolo Dopamina Reset', value: 'R$ 50', bonus: true },
   ],
-  extras: [
-    'Acesso imediato e vitalício (celular ou computador)',
-    'Garantia incondicional de 7 dias',
-  ],
-  totalLabel: 'Valor total',
-  totalValue: 'R$ 188', // soma do stack acima (97 + 37 + 27 + 27)
-  todayLabel: 'Hoje, por apenas',
-  ctaPrimary: 'QUERO O CONTROLE ABSOLUTO',
-  secureNote: 'Compra 100% segura · cobrança discreta na fatura',
+  extras: ['Acesso imediato e vitalício', 'Protocolo + bônus no mesmo acesso', 'Garantia de 7 dias pela Kiwify'],
+  totalLabel: 'De',
+  totalValue: 'R$ 197',
+  todayLabel: 'Hoje você entra por',
+  ctaPrimary: 'QUERO ASSUMIR A REGÊNCIA',
+  secureNote: 'Pagamento seguro pela Kiwify · acesso enviado por e-mail',
 }
 
-/* ----------------------- SEGURANÇA / PAGAMENTO ----------------------- */
 export const PAYMENT = {
-  kicker: 'PODE COMPRAR TRANQUILO',
-  title: 'Compra 100% segura e sigilosa',
-  text:
-    'O pagamento é processado por uma plataforma líder de mercado, em ambiente criptografado. A cobrança é discreta na sua fatura — ninguém vai saber o que você comprou.',
-  methods: ['Pix', 'Cartão de crédito', 'Boleto'],
-  badges: ['Ambiente criptografado (SSL)', 'Seus dados protegidos', 'Cobrança discreta'],
+  kicker: 'COMPRA SEGURA',
+  title: 'Entre agora. A Kiwify cuida do pagamento e libera o acesso.',
+  text: 'Finalize no checkout seguro e receba o acesso no e-mail informado na compra.',
+  methods: ['Pix', 'Cartão de crédito'],
+  badges: ['Checkout seguro', 'Acesso digital', 'Suporte por e-mail'],
 }
 
-/* ----------------------- GARANTIA ----------------------- */
 export const GUARANTEE = {
   days: 7,
-  title: 'Garantia incondicional de 7 dias',
+  title: '7 dias para entrar, conhecer e decidir.',
   text:
-    'Aplique o protocolo. Se em 7 dias você achar que não é para você — por qualquer motivo — basta enviar um e-mail e devolvemos 100% do seu dinheiro. O risco é todo nosso. Você não tem nada a perder, a não ser o medo.',
+    'Sua compra tem a garantia de 7 dias da Kiwify. Entre, conheça o material e veja o que recebeu. Se decidir sair dentro do prazo, solicite o reembolso pela plataforma.',
 }
 
-/* ----------------------- FAQ (QUEBRA DE OBJEÇÃO) ----------------------- */
 export const FAQ = {
-  kicker: 'AINDA COM DÚVIDA?',
+  kicker: 'ANTES DE ENTRAR',
   headline: 'Perguntas frequentes',
   items: [
     {
-      q: 'O que exatamente eu recebo?',
-      a: 'Um e-book digital em PDF com 77 páginas e 12 capítulos, organizado em 3 módulos (mente, corpo e técnica), com um plano de 30 dias e exercícios práticos. Você lê no celular, tablet ou computador.',
+      q: 'O que eu recebo?',
+      a: 'O Protocolo Controle Absoluto completo, organizado em um percurso prático de 30 dias, mais o bônus premium Dopamina Reset. O acesso é digital e vitalício.',
     },
     {
-      q: 'Como eu recebo depois de comprar?',
-      a: 'Na hora. Assim que o pagamento é aprovado, você recebe o acesso por e-mail e já pode baixar e começar a ler imediatamente.',
+      q: 'Como recebo depois da compra?',
+      a: 'Assim que o pagamento é aprovado, a Kiwify envia o acesso para o e-mail informado no checkout.',
     },
     {
-      q: 'Funciona mesmo se eu já tentei de tudo?',
-      a: 'Sim. A maioria das "soluções" falha porque ataca só o sintoma. O Protocolo trabalha a raiz nas duas frentes — a mente (ansiedade) e o corpo (controle muscular e respiratório). É por isso que funciona quando sprays e pílulas não funcionaram.',
+      q: 'O foco é ejaculação precoce ou desempenho sexual em geral?',
+      a: 'Os dois. O método parte do controle da excitação e amplia para função pélvica, ereção, ansiedade, iniciativa, posições, comunicação e condução.',
     },
     {
-      q: 'Preciso de remédio, aparelho ou spray?',
-      a: 'Não. O método é 100% baseado em treino físico e mental. Nada para comprar além do e-book, nada para colocar no corpo.',
+      q: 'Preciso estar em um relacionamento?',
+      a: 'Não. Parte do treinamento é individual. As aplicações em parceria entram quando houver contexto para isso.',
     },
     {
-      q: 'A cobrança é discreta? Vão saber o que eu comprei?',
-      a: 'Sim, é discreta. A compra é processada por uma plataforma de pagamento segura e o conteúdo é totalmente sigiloso. Ninguém além de você precisa saber.',
+      q: 'É só teoria?',
+      a: 'Não. O método foi construído para aplicação. Você aprende, pratica, observa a resposta e integra o que funciona ao seu repertório.',
     },
     {
-      q: 'Em quanto tempo eu vejo resultado?',
-      a: 'O plano de treino é de 30 dias, mas várias técnicas (respiração, dissociação, escala de excitação) você já consegue aplicar na próxima vez. A consistência é o que constrói o resultado definitivo.',
+      q: 'Preciso comprar remédio, spray ou aparelho?',
+      a: 'Não. O protocolo não depende desses itens para ser aplicado.',
     },
     {
       q: 'E se eu não gostar?',
-      a: 'Você tem 7 dias de garantia incondicional. Se não for para você, devolvemos 100% do valor. Risco zero.',
+      a: 'A compra tem 7 dias de garantia pela Kiwify. Dentro do prazo, você pode solicitar o reembolso pela plataforma.',
     },
   ],
 }
 
-/* ----------------------- CTA FINAL ----------------------- */
 export const FINAL_CTA = {
-  headline: 'O relógio pode deixar de ser o seu inimigo hoje.',
+  headline: 'Na próxima vez, seja o Maestro. Não deixe a ansiedade reger o espetáculo.',
   subtitle:
-    'Você fez o caminho difícil até aqui em vez de procurar um atalho. Dê o próximo passo. O controle sempre foi seu — agora você vai saber como usá-lo.',
-  ctaPrimary: 'COMEÇAR MEU PROTOCOLO AGORA',
+    'Entre sabendo perceber, pausar, conduzir e ajustar. Sexo foi feito para ser vivido — não para parecer uma prova que você precisa sobreviver.',
+  ctaPrimary: 'QUERO ASSUMIR O CONTROLE AGORA',
 }
