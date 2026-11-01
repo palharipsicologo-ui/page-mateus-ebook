@@ -1,5 +1,4 @@
 import CTAButton from './CTAButton.jsx'
-import KingMark from './KingMark.jsx'
 import { BRAND } from '../data/content.js'
 
 export default function Header() {
@@ -7,7 +6,9 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <a className="brand" href="#top" aria-label={BRAND.product}>
-          <span className="brand__mark brand__mark--king"><KingMark /></span>
+          <span className="brand__mark brand__mark--king">
+            <img src="/maestro-king.svg" alt="Símbolo do Maestro" />
+          </span>
           <span className="brand__name">
             Controle Absoluto
             <small>O Maestro</small>
