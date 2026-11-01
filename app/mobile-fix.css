@@ -1,0 +1,226 @@
+/* Mobile-first contrast and generated-art pass */
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #060504;
+  color: #fff9f0;
+}
+
+/* Keep the generated artwork crisp and prevent oversized raster upscaling. */
+.book-real--md {
+  width: min(300px, 78vw);
+}
+
+.book-real--sm {
+  width: min(220px, 58vw);
+}
+
+.book-real__cover,
+.bonus-cover-wrap img,
+.authority__king-image,
+.brand__mark--king img {
+  image-rendering: auto;
+}
+
+.authority__seal--king {
+  background: #050403;
+}
+
+.authority__king-image {
+  object-fit: cover;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --text: #fff9f0;
+    --muted: #d3c8b7;
+    --gold: #e7b952;
+    --gold-bright: #ffdc7a;
+    --gold-deep: #b67a22;
+  }
+
+  html,
+  body,
+  .hero,
+  .section,
+  .header,
+  .sticky-cta {
+    color-scheme: dark;
+  }
+
+  body {
+    background: #050403 !important;
+    color: #fff9f0 !important;
+  }
+
+  .header {
+    background: rgba(4, 4, 3, .98) !important;
+    border-bottom: 1px solid rgba(231,185,82,.22) !important;
+  }
+
+  .brand__mark--king {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    border-radius: 14px !important;
+    border: 1px solid rgba(255,220,122,.42) !important;
+    background: #050403 !important;
+    box-shadow: 0 0 22px rgba(231,185,82,.12) !important;
+  }
+
+  .brand__mark--king img {
+    border-radius: 13px !important;
+    object-fit: cover !important;
+  }
+
+  .brand__name {
+    color: #fffaf3 !important;
+  }
+
+  .brand__name small {
+    color: #e9ba59 !important;
+  }
+
+  .hero {
+    background:
+      radial-gradient(92% 42% at 50% 4%, rgba(226,174,70,.10), transparent 72%),
+      #060504 !important;
+  }
+
+  .hero::after {
+    opacity: .025 !important;
+  }
+
+  .hero__eyebrow {
+    color: #f0c76d !important;
+    border-color: rgba(240,199,109,.34) !important;
+    background: rgba(240,199,109,.035) !important;
+  }
+
+  .hero__title,
+  .section-title,
+  .pain__headline,
+  .authority__name,
+  .guarantee__title {
+    color: #fffaf2 !important;
+  }
+
+  /* Samsung/Chrome can muddy clipped gradients. Use a solid luminous gold on mobile. */
+  .gold-text,
+  .hero__title .gold-text {
+    background: none !important;
+    background-image: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #ffd86d !important;
+    color: #ffd86d !important;
+    text-shadow: 0 0 20px rgba(255,216,109,.10) !important;
+  }
+
+  .hero__subtitle,
+  .section-sub,
+  .pain__paragraphs,
+  .pain__paragraphs p,
+  .pain__relief p,
+  .enemy__card p,
+  .module__hook,
+  .forwhom__item,
+  .authority__text,
+  .pillar__text,
+  .bonus-feature__copy .bonus__desc,
+  .bonus__foot,
+  .offer__extras,
+  .payment__text,
+  .faq__answer,
+  .guarantee__text {
+    color: #d7ccbb !important;
+  }
+
+  .kicker,
+  .authority__role,
+  .module__tag,
+  .module__subtitle,
+  .bonus__tag {
+    color: #efc362 !important;
+  }
+
+  /* No brown gradients on mobile CTAs: solid gold = maximum readability. */
+  .cta,
+  .hero__cta .cta,
+  .sticky-cta .cta,
+  .offer .cta {
+    background: #e8b94f !important;
+    background-image: none !important;
+    color: #100b03 !important;
+    -webkit-text-fill-color: #100b03 !important;
+    border: 1px solid #f4cf78 !important;
+    box-shadow: 0 12px 34px rgba(232,185,79,.20) !important;
+    filter: none !important;
+  }
+
+  .cta-sub,
+  .sticky-cta__note {
+    color: #c4b9a9 !important;
+  }
+
+  .sticky-cta {
+    background: #050403 !important;
+    border-top: 1px solid rgba(240,199,109,.32) !important;
+  }
+
+  .sticky-cta__price {
+    color: #fffaf1 !important;
+  }
+
+  .book-real--md {
+    width: min(270px, 76vw) !important;
+  }
+
+  .book-real__book {
+    transform: rotateY(-3deg) rotateX(.25deg) !important;
+    filter: drop-shadow(14px 22px 34px rgba(0,0,0,.70)) !important;
+  }
+
+  .book-real__cover {
+    filter: none !important;
+    border-color: rgba(245,205,113,.38) !important;
+    box-shadow: 0 0 30px rgba(222,169,65,.08) !important;
+  }
+
+  .authority__seal--king {
+    aspect-ratio: 1 / 1 !important;
+    min-height: 0 !important;
+    border: 1px solid rgba(239,195,98,.30) !important;
+    border-radius: 22px !important;
+    box-shadow: 0 24px 55px rgba(0,0,0,.38) !important;
+  }
+
+  .authority__king-image {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    object-fit: cover !important;
+  }
+
+  .bonus-cover-wrap {
+    width: min(270px, 76vw) !important;
+  }
+
+  .bonus-cover-wrap img {
+    transform: none !important;
+    filter: none !important;
+    border-color: rgba(245,205,113,.38) !important;
+    box-shadow: 0 20px 42px rgba(0,0,0,.58) !important;
+  }
+
+  .testi__bubble {
+    color: #fff8ee !important;
+  }
+
+  .testi__privacy {
+    color: #aaa08f !important;
+  }
+}
