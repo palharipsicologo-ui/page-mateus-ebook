@@ -6,9 +6,9 @@ export default function BookMock({ size = 'md' }) {
       <div className="book-real__book book-real__book--exact">
         <img
           className="book-real__cover book-real__cover--exact"
-          src="/controle-absoluto-exact.jpg?v=20261101-5"
-          width="280"
-          height="404"
+          src="/controle-absoluto-hq.webp?v=20261101-6"
+          width="1064"
+          height="1536"
           alt={`Capa do ${BRAND.product}`}
           draggable="false"
           decoding="async"
