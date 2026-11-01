@@ -7,7 +7,7 @@ export default function Authority() {
       <div className="container">
         <div className="authority__inner">
           <Reveal className="authority__seal authority__seal--king" aria-label="Símbolo do Maestro: rei de xadrez">
-            <img className="authority__king-image" src="/maestro-king-generated.webp" alt="Rei de xadrez preto e dourado, símbolo do Maestro" />
+            <img className="authority__king-image" src="/maestro-king-final.webp?v=20261101-1" alt="Rei de xadrez preto e dourado, símbolo do Maestro" />
           </Reveal>
 
           <Reveal>
