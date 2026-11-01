@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container header__inner">
         <a className="brand" href="#top" aria-label={BRAND.product}>
           <span className="brand__mark brand__mark--king">
-            <img src="/maestro-king-generated.webp" alt="Símbolo do Maestro" />
+            <img src="/maestro-king-final.webp?v=20261101-1" alt="Símbolo do Maestro" />
           </span>
           <span className="brand__name">
             Controle Absoluto
