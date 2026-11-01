@@ -6,8 +6,8 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <a className="brand" href="#top" aria-label={BRAND.product}>
-          <span className="brand__mark brand__mark--king">
-            <img src="/maestro-king-final.svg?v=20261101-3" alt="Símbolo do Maestro" />
+          <span className="brand__mark brand__mark--king brand__mark--exact">
+            <img src="/maestro-king-exact.jpg?v=20261101-5" alt="Símbolo do Maestro" />
           </span>
           <span className="brand__name">
             Controle Absoluto
