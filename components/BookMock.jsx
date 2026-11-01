@@ -3,13 +3,12 @@ import { BRAND } from '../data/content.js'
 export default function BookMock({ size = 'md' }) {
   return (
     <div className={`book-real book-real--${size}`} role="img" aria-label={`Capa do e-book ${BRAND.product}`}>
-      <div className="book-real__book">
-        <div className="book-real__pages" />
+      <div className="book-real__book book-real__book--exact">
         <img
-          className="book-real__cover"
-          src="/controle-absoluto-final.svg?v=20261101-3"
-          width="1080"
-          height="1560"
+          className="book-real__cover book-real__cover--exact"
+          src="/controle-absoluto-exact.jpg?v=20261101-5"
+          width="280"
+          height="404"
           alt={`Capa do ${BRAND.product}`}
           draggable="false"
           decoding="async"
