@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1560" viewBox="0 0 1080 1560">
+<defs>
+  <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#F0D86F"/><stop offset=".45" stop-color="#D4AA3F"/><stop offset="1" stop-color="#9A6F13"/></linearGradient>
+  <linearGradient id="marble" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1C1C1C"/><stop offset=".45" stop-color="#060606"/><stop offset="1" stop-color="#171109"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#D4AA3F" stop-opacity=".20"/><stop offset="1" stop-color="#D4AA3F" stop-opacity="0"/></radialGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000" flood-opacity=".9"/></filter>
+</defs>
+<rect width="1080" height="1560" fill="#050505"/>
+<rect x="25" y="25" width="1030" height="1510" rx="22" fill="none" stroke="#D4AA3F" stroke-width="2"/>
+<text x="540" y="95" text-anchor="middle" fill="#D4AA3F" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" letter-spacing="14">BÔNUS PREMIUM</text>
+<text x="540" y="165" text-anchor="middle" fill="#FFF9EC" font-family="Georgia,serif" font-size="45" letter-spacing="12">PROTOCOLO</text>
+<ellipse cx="540" cy="610" rx="360" ry="360" fill="url(#halo)"/>
+<circle cx="540" cy="600" r="255" fill="none" stroke="#D4AA3F" stroke-width="22" stroke-dasharray="1030 300" stroke-linecap="round"/>
+<polygon points="785,410 855,444 792,492" fill="#D4AA3F"/>
+<g filter="url(#shadow)">
+  <path d="M540 300 l-50 0 0 35 -36 0 0 42 36 0 0 35 50 0 0-35 36 0 0-42-36 0z" fill="url(#gold)" stroke="#F4DE7A" stroke-width="3"/>
+  <ellipse cx="540" cy="447" rx="90" ry="32" fill="#090909" stroke="#D4AA3F" stroke-width="7"/>
+  <path d="M468 463 C480 520 497 570 500 617 C505 675 480 738 462 805 L618 805 C600 738 575 675 580 617 C583 570 600 520 612 463 Z" fill="url(#marble)" stroke="#D4AA3F" stroke-width="7"/>
+  <ellipse cx="540" cy="807" rx="128" ry="40" fill="#090909" stroke="#D4AA3F" stroke-width="7"/>
+  <ellipse cx="540" cy="849" rx="154" ry="50" fill="#111" stroke="#D4AA3F" stroke-width="7"/>
+  <rect x="392" y="873" width="296" height="42" rx="16" fill="#080808" stroke="#D4AA3F" stroke-width="7"/>
+  <path d="M500 520 C540 555 560 610 602 646" fill="none" stroke="#F0D86F" stroke-width="9" stroke-linecap="round"/>
+  <path d="M570 495 C530 590 510 685 485 775" fill="none" stroke="#B58417" stroke-width="7" stroke-linecap="round"/>
+</g>
+<path d="M0 940 C170 865 315 1030 515 960 C705 895 855 975 1080 900 L1080 1560 0 1560Z" fill="#090909"/>
+<path d="M0 1010 C190 945 335 1085 540 1015 C735 945 880 1015 1080 955" fill="none" stroke="#D4AA3F" stroke-opacity=".27" stroke-width="4"/>
+<text x="540" y="1150" text-anchor="middle" fill="#FFF7E8" font-family="Georgia,serif" font-size="100" font-weight="700">DOPAMINA</text>
+<text x="540" y="1260" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="120" font-weight="700">RESET</text>
+<line x1="430" x2="650" y1="1300" y2="1300" stroke="#D4AA3F" stroke-width="3"/>
+<text x="540" y="1375" text-anchor="middle" fill="#FFF7E8" font-family="Arial,Helvetica,sans-serif" font-size="31">30 dias para romper o automático e recuperar</text>
+<text x="540" y="1415" text-anchor="middle" fill="#FFF7E8" font-family="Arial,Helvetica,sans-serif" font-size="31">o controle sobre estímulo, atenção e hábitos.</text>
+<text x="540" y="1490" text-anchor="middle" fill="#D4AA3F" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="14">O MAESTRO</text>
+</svg>
