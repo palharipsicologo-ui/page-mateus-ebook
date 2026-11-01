@@ -1,0 +1,1 @@
+Final approved image assets will be loaded from binary blobs committed in this branch.
