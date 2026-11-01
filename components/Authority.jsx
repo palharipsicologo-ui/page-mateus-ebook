@@ -1,5 +1,4 @@
 import Reveal from './Reveal.jsx'
-import KingMark from './KingMark.jsx'
 import { AUTHORITY } from '../data/content.js'
 
 export default function Authority() {
@@ -9,7 +8,7 @@ export default function Authority() {
         <div className="authority__inner">
           <Reveal className="authority__seal authority__seal--king" aria-label="Símbolo do Maestro: rei de xadrez">
             <div className="authority__king-halo" />
-            <KingMark className="authority__king" />
+            <img className="authority__king-image" src="/maestro-king.svg" alt="Rei de xadrez, símbolo do Maestro" />
           </Reveal>
 
           <Reveal>
