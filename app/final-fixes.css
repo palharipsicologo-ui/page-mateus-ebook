@@ -1,25 +1,24 @@
-/* FINAL MOBILE / ASSET FIXES — loaded last */
+/* FINAL MOBILE / ASSET FIXES — exact approved artwork, loaded last */
 :root {
-  --bg: #050505 !important;
-  --bg-2: #050505 !important;
-  --surface: #0b0a08 !important;
-  --surface-2: #0f0d09 !important;
-  --gold: #D4AA3F !important;
-  --gold-bright: #E8C65B !important;
-  --gold-deep: #9C7115 !important;
-  --line: rgba(212,170,63,.22) !important;
-  --line-strong: rgba(212,170,63,.48) !important;
-  --gold-gradient: linear-gradient(135deg,#E8C65B 0%,#D4AA3F 58%,#A87816 100%) !important;
-  --text: #FFF9EE !important;
-  --muted: #CDC3B5 !important;
+  --bg:#050505 !important;
+  --bg-2:#050505 !important;
+  --surface:#0a0907 !important;
+  --surface-2:#0e0c08 !important;
+  --gold:#D8AF3F !important;
+  --gold-bright:#FFD15A !important;
+  --gold-deep:#A77A12 !important;
+  --line:rgba(216,175,63,.24) !important;
+  --line-strong:rgba(216,175,63,.50) !important;
+  --gold-gradient:linear-gradient(135deg,#FFD15A 0%,#E6BC43 55%,#B58417 100%) !important;
+  --text:#FFF9EE !important;
+  --muted:#D4CABC !important;
 }
 
-html, body { background:#050505 !important; }
-body { color:#FFF9EE !important; }
-.header { background:rgba(5,5,5,.98) !important; border-bottom-color:rgba(212,170,63,.20) !important; }
-.hero, .bonus, .authority, .section { background-color:#050505; }
+html,body{background:#050505 !important;color:#FFF9EE !important;}
+.header{background:rgba(5,5,5,.985) !important;border-bottom-color:rgba(216,175,63,.22) !important;}
+.hero,.bonus,.authority,.section{background-color:#050505 !important;}
 
-/* Yellow accent: sampled direction from the approved shield reference */
+/* Strong readable yellow — no dark gold gradients on text */
 .kicker,
 .hero__eyebrow,
 .brand__name small,
@@ -33,133 +32,102 @@ body { color:#FFF9EE !important; }
 .price-card__label,
 .gold-text,
 .highlight,
-[class*="__accent"] {
-  color:#D4AA3F !important;
-  -webkit-text-fill-color:#D4AA3F !important;
+[class*="__accent"]{
+  color:#E6BC43 !important;
+  -webkit-text-fill-color:#E6BC43 !important;
   background:none !important;
   text-shadow:none !important;
 }
-
-.hero__title .gold-text {
-  color:#E8C65B !important;
-  -webkit-text-fill-color:#E8C65B !important;
+.hero__title .gold-text{
+  color:#FFD15A !important;
+  -webkit-text-fill-color:#FFD15A !important;
   background:none !important;
+  text-shadow:0 0 22px rgba(255,209,90,.10) !important;
+}
+.hero__subtitle,.section-sub,.authority__text,.module__hook,
+.bonus-feature__copy .bonus__desc,.pillar__text,.forwhom__item,
+.enemy__card p,.pain__paragraphs,.cta-sub{color:#D4CABC !important;}
+
+/* EXACT approved artwork: images 6, 7 and 8 supplied by the user */
+.brand__mark--exact{
+  width:52px !important;height:52px !important;padding:0 !important;
+  overflow:hidden !important;border-radius:14px !important;
+  background:#050505 !important;border:0 !important;
+  box-shadow:0 7px 24px rgba(0,0,0,.48) !important;
+}
+.brand__mark--exact img{
+  width:100% !important;height:100% !important;display:block !important;
+  object-fit:cover !important;filter:none !important;opacity:1 !important;
 }
 
-.hero__subtitle,
-.section-sub,
-.authority__text,
-.module__hook,
-.bonus-feature__copy .bonus__desc,
-.pillar__text,
-.forwhom__item,
-.enemy__card p,
-.pain__paragraphs,
-.cta-sub {
-  color:#CDC3B5 !important;
+.book-real{background:transparent !important;}
+.book-real__book--exact{
+  width:100% !important;height:auto !important;aspect-ratio:auto !important;
+  transform:none !important;filter:drop-shadow(0 28px 44px rgba(0,0,0,.62)) !important;
+}
+.book-real__pages{display:none !important;}
+.book-real__cover--exact{
+  width:100% !important;height:auto !important;display:block !important;
+  object-fit:contain !important;filter:none !important;opacity:1 !important;
+  visibility:visible !important;border:1px solid rgba(216,175,63,.42) !important;
+  border-radius:7px !important;box-shadow:0 0 34px rgba(216,175,63,.07) !important;
 }
 
-/* Reliable product images */
-.book-real__cover,
-.bonus-cover-wrap img,
-.authority__king-image,
-.brand__mark--king img {
-  display:block !important;
-  opacity:1 !important;
-  visibility:visible !important;
-  max-width:100% !important;
+.bonus-cover-wrap--exact{
+  width:min(310px,100%) !important;background:transparent !important;
+}
+.bonus-cover-wrap--exact::before{display:none !important;}
+.bonus-cover-wrap--exact img{
+  width:100% !important;height:auto !important;display:block !important;
+  object-fit:contain !important;transform:none !important;filter:none !important;
+  opacity:1 !important;visibility:visible !important;
+  border:1px solid rgba(216,175,63,.42) !important;border-radius:7px !important;
+  box-shadow:0 26px 58px rgba(0,0,0,.62) !important;
 }
 
-.book-real__cover,
-.bonus-cover-wrap img {
-  object-fit:cover !important;
-  image-rendering:auto !important;
-  filter:none !important;
+/* Maestro: the image itself already has the premium gold frame; page and container are the SAME black */
+.authority__seal--exact{
+  width:min(440px,100%) !important;min-height:0 !important;aspect-ratio:auto !important;
+  margin-inline:auto !important;padding:0 !important;overflow:visible !important;
+  background:#050505 !important;border:0 !important;box-shadow:none !important;
+}
+.authority__king-image--exact{
+  width:100% !important;height:auto !important;display:block !important;
+  object-fit:contain !important;background:#050505 !important;
+  border:0 !important;border-radius:0 !important;box-shadow:none !important;
+  filter:none !important;opacity:1 !important;visibility:visible !important;
 }
 
-.book-real__cover { border:1px solid rgba(212,170,63,.48) !important; }
-
-/* Maestro image must disappear into page black */
-.authority__seal--king {
-  background:#050505 !important;
-  border:0 !important;
-  box-shadow:none !important;
-  padding:0 !important;
-  overflow:hidden !important;
+/* CTAs: clear yellow instead of muddy brown */
+.cta,.sticky-cta .cta{
+  background:#E0B63F !important;color:#090703 !important;
+  border:1px solid #FFD15A !important;
+  box-shadow:0 14px 38px rgba(224,182,63,.25) !important;
 }
-.authority__king-image {
-  width:100% !important;
-  height:auto !important;
-  object-fit:contain !important;
-  background:#050505 !important;
-  border:0 !important;
-  box-shadow:none !important;
-}
+.cta:hover{background:#EBC64E !important;box-shadow:0 18px 48px rgba(235,198,78,.34) !important;}
+.sticky-cta{background:rgba(5,5,5,.99) !important;border-top:1px solid rgba(216,175,63,.28) !important;}
+.sticky-cta__price{color:#FFF9EE !important;}
+.sticky-cta__note{color:#C9BFAF !important;}
+.offer,.price-card,.bonus-feature,.book-real,.authority__inner{background-color:transparent !important;}
 
-.brand__mark--king {
-  background:#050505 !important;
-  border-color:rgba(212,170,63,.40) !important;
-  box-shadow:0 8px 26px rgba(0,0,0,.45) !important;
-}
+@media(max-width:760px){
+  body{background:#050505 !important;}
+  .hero{background:radial-gradient(90% 45% at 50% 5%,rgba(224,182,63,.09),transparent 70%),#050505 !important;}
+  .hero__title,.section-title,.pain__headline,.authority__name,.guarantee__title,
+  .bonus__name,.forwhom__title,.module__name{color:#FFF9EE !important;}
+  .hero__title .gold-text{color:#FFD15A !important;-webkit-text-fill-color:#FFD15A !important;}
+  .hero__eyebrow,.kicker,.brand__name small,.authority__role,.module__tag,
+  .module__subtitle,.bonus__tag{color:#E6BC43 !important;-webkit-text-fill-color:#E6BC43 !important;}
+  .hero__subtitle,.section-sub,.authority__text,.module__hook,
+  .bonus-feature__copy .bonus__desc{color:#DDD3C5 !important;}
 
-/* Buttons: solid yellow, not muddy brown */
-.cta,
-.sticky-cta .cta {
-  background:#D4AA3F !important;
-  color:#0A0803 !important;
-  border:1px solid #E8C65B !important;
-  box-shadow:0 14px 36px rgba(212,170,63,.24) !important;
-}
-.cta:hover { background:#E0B94A !important; box-shadow:0 18px 44px rgba(212,170,63,.34) !important; }
+  .book-real--md{width:min(315px,82vw) !important;}
+  .book-real--sm{width:min(220px,58vw) !important;}
+  .book-real__book--exact{transform:none !important;}
 
-.sticky-cta {
-  background:rgba(5,5,5,.985) !important;
-  border-top:1px solid rgba(212,170,63,.25) !important;
-}
-.sticky-cta__price { color:#FFF9EE !important; }
-.sticky-cta__note { color:#BEB4A5 !important; }
+  .authority__seal--exact{width:min(360px,84vw) !important;background:#050505 !important;}
+  .authority__king-image--exact{width:100% !important;height:auto !important;background:#050505 !important;}
 
-/* Keep offer/product areas dark and unified */
-.offer,
-.price-card,
-.bonus-feature,
-.book-real,
-.authority__inner { background-color:transparent !important; }
-
-@media (max-width:760px) {
-  body { background:#050505 !important; }
-  .hero {
-    background:radial-gradient(90% 45% at 50% 5%, rgba(212,170,63,.10), transparent 70%), #050505 !important;
-  }
-  .hero__title,
-  .section-title,
-  .pain__headline,
-  .authority__name,
-  .guarantee__title,
-  .bonus__name,
-  .forwhom__title,
-  .module__name {
-    color:#FFF9EE !important;
-  }
-  .hero__title .gold-text { color:#E8C65B !important; -webkit-text-fill-color:#E8C65B !important; }
-  .hero__eyebrow,
-  .kicker,
-  .brand__name small,
-  .authority__role,
-  .module__tag,
-  .module__subtitle,
-  .bonus__tag { color:#D4AA3F !important; }
-  .hero__subtitle,
-  .section-sub,
-  .authority__text,
-  .module__hook,
-  .bonus-feature__copy .bonus__desc { color:#D4CABC !important; }
-  .book-real--md { width:min(350px,88vw) !important; }
-  .book-real__book { transform:rotateY(-4deg) rotateX(.3deg) !important; }
-  .book-real__pages { right:-8px !important; width:10px !important; }
-  .authority__seal--king { aspect-ratio:1/1 !important; min-height:0 !important; }
-  .authority__king-image { width:100% !important; height:100% !important; object-fit:contain !important; }
-  .bonus-cover-wrap { width:min(310px,82vw) !important; }
-  .bonus-cover-wrap img { transform:none !important; box-shadow:0 24px 54px rgba(0,0,0,.58) !important; }
-  .sticky-cta .cta { background:#D4AA3F !important; color:#0A0803 !important; }
+  .bonus-cover-wrap--exact{width:min(300px,80vw) !important;}
+  .sticky-cta .cta{background:#E0B63F !important;color:#090703 !important;}
 }
