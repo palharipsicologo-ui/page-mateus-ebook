@@ -16,11 +16,11 @@ export default function Bonus() {
 
         <Reveal className="bonus-feature">
           <div className="bonus-feature__visual" aria-label="Capa do bônus Dopamina Reset">
-            <div className="bonus-cover-wrap">
+            <div className="bonus-cover-wrap bonus-cover-wrap--exact">
               <img
-                src="/dopamina-reset-final.svg?v=20261101-3"
-                width="1080"
-                height="1560"
+                src="/dopamina-reset-exact.jpg?v=20261101-5"
+                width="280"
+                height="404"
                 alt="Capa do Protocolo Dopamina Reset"
                 draggable="false"
                 decoding="async"
