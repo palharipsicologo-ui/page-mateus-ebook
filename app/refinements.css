@@ -7,8 +7,8 @@
   overflow: hidden;
   border-radius: 15px;
   background: #060504;
-  border: 1px solid rgba(239,210,142,.34);
-  box-shadow: 0 9px 28px rgba(0,0,0,.42), inset 0 0 26px rgba(199,160,88,.06);
+  border: 1px solid rgba(239,210,142,.46);
+  box-shadow: 0 9px 28px rgba(0,0,0,.42), inset 0 0 26px rgba(199,160,88,.08);
 }
 
 .brand__mark--king img {
@@ -19,7 +19,7 @@
   border-radius: 12px;
 }
 
-/* capa principal: vetor nítido em qualquer tela */
+/* capa principal aprovada */
 .book-real { isolation: isolate; }
 
 .book-real__book {
@@ -28,17 +28,18 @@
 }
 
 .book-real__cover {
-  display: block;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 1 !important;
+  visibility: visible !important;
   image-rendering: auto;
   backface-visibility: hidden;
   transform: translateZ(.1px);
   border-color: rgba(239,210,142,.42);
   box-shadow: 0 0 42px rgba(199,160,88,.08);
-  filter: contrast(1.05) saturate(1.06) brightness(1.04);
-}
-
-.book-real--sm .book-real__cover {
-  filter: contrast(1.06) saturate(1.06) brightness(1.05);
+  filter: none !important;
 }
 
 /* Rei do Maestro */
@@ -51,17 +52,8 @@
   padding: 0;
   border-radius: 26px;
   background: #050403;
-  border: 1px solid rgba(199,160,88,.30);
-  box-shadow: 0 34px 100px rgba(0,0,0,.42), inset 0 0 70px rgba(199,160,88,.035);
-}
-
-.authority__king-halo {
-  position: absolute;
-  width: 84%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(199,160,88,.18), rgba(199,160,88,.04) 45%, transparent 72%);
-  filter: blur(3px);
+  border: 1px solid rgba(239,210,142,.34);
+  box-shadow: 0 34px 100px rgba(0,0,0,.42), inset 0 0 70px rgba(199,160,88,.04);
 }
 
 .authority__king-image {
@@ -72,9 +64,10 @@
   min-height: 410px;
   object-fit: cover;
   display: block;
+  opacity: 1;
 }
 
-/* relatos: aspecto de conversa, sem rótulo artificial */
+/* relatos */
 .testi__message {
   background: linear-gradient(145deg, rgba(255,255,255,.025), transparent 55%), #11100d;
 }
@@ -108,7 +101,7 @@
   line-height: 1.55;
 }
 
-/* bônus com capa própria e composição horizontal */
+/* bônus com a capa aprovada */
 .bonus-cover-wrap {
   width: min(300px, 100%);
   position: relative;
@@ -120,140 +113,233 @@
   position: absolute;
   inset: 8% -12% -8% 12%;
   z-index: -1;
-  background: radial-gradient(circle, rgba(199,160,88,.20), transparent 66%);
+  background: radial-gradient(circle, rgba(238,190,84,.22), transparent 66%);
   filter: blur(22px);
 }
 
 .bonus-cover-wrap img {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
   border-radius: 6px 11px 11px 6px;
-  border: 1px solid rgba(239,210,142,.38);
+  border: 1px solid rgba(239,210,142,.42);
   box-shadow: 22px 30px 58px rgba(0,0,0,.62);
   transform: rotateY(-6deg) rotateX(.6deg);
   transform-origin: center;
   backface-visibility: hidden;
-  filter: contrast(1.05) saturate(1.06) brightness(1.04);
+  filter: none !important;
 }
 
-/* ouro mais limpo: evita marrom apagado em telas OLED */
+/* ouro desktop */
 .gold-text {
-  background: linear-gradient(90deg,#f8e4a5 0%,#e1b85d 46%,#bd8731 100%);
+  background: linear-gradient(90deg,#fff0b7 0%,#e7bd5c 48%,#ba842c 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #e7c46d;
+  color: #e7bd5c;
 }
 
 .cta {
-  color: #130d03;
-  background: linear-gradient(135deg,#f5dc97 0%,#dfb451 48%,#a97424 100%);
-  box-shadow: 0 16px 52px rgba(202,153,62,.28);
+  color: #100a02;
+  background: linear-gradient(135deg,#ffe49a 0%,#e0b34c 50%,#a96f20 100%);
+  box-shadow: 0 16px 52px rgba(224,179,76,.28);
 }
 
-.cta:hover { box-shadow: 0 22px 68px rgba(218,172,79,.36); }
+.cta:hover { box-shadow: 0 22px 68px rgba(232,188,84,.38); }
 
 .sticky-cta {
-  background: rgba(7,6,4,.97) !important;
-  border-top-color: rgba(226,184,93,.30) !important;
+  background: rgba(7,6,4,.98) !important;
+  border-top-color: rgba(255,210,90,.34) !important;
 }
 
-.sticky-cta .cta {
-  background: linear-gradient(135deg,#f2d489,#d6a84a 52%,#a17027 100%);
-  color: #120d04;
-}
+.sticky-cta__price { color: #fffaf0; }
+.sticky-cta__note { color: #d2c7b5; }
 
-.sticky-cta__price { color: #fff7e9; }
-.sticky-cta__note { color: #aaa08f; }
-
+/* MOBILE: contraste propositalmente alto para OLED/Samsung */
 @media (max-width: 760px) {
   :root {
-    --gold: #d7aa4d;
-    --gold-bright: #f0d584;
-    --gold-deep: #9a6924;
-    --muted: #b5aa98;
+    --gold: #FFD45F !important;
+    --gold-bright: #FFE9A8 !important;
+    --gold-deep: #D99B28 !important;
+    --text: #FFF9EF !important;
+    --muted: #E0D5C5 !important;
+    --line: rgba(255,212,95,.20) !important;
+    --line-strong: rgba(255,212,95,.44) !important;
+  }
+
+  html,
+  body {
+    color-scheme: dark;
+    background: #050403 !important;
+    color: #FFF9EF !important;
   }
 
   .header {
-    background: rgba(5,5,4,.97);
-    border-bottom-color: rgba(215,170,77,.14);
+    background: #050403 !important;
+    border-bottom-color: rgba(255,212,95,.22) !important;
   }
 
   .brand__mark--king {
     width: 48px;
     height: 48px;
     border-radius: 14px;
+    border-color: rgba(255,225,145,.55) !important;
   }
 
   .brand__name {
-    color: #fff8ec;
+    color: #FFF9EF !important;
     font-size: 1rem;
   }
 
-  .brand__name small { color: #d8aa4d; }
+  .brand__name small {
+    color: #FFD45F !important;
+    -webkit-text-fill-color: #FFD45F !important;
+  }
 
   .hero {
     background:
-      radial-gradient(95% 48% at 50% 5%, rgba(205,151,52,.13), transparent 72%),
-      linear-gradient(180deg,#060504 0%,#090704 58%,#050403 100%);
+      radial-gradient(95% 48% at 50% 5%, rgba(255,201,74,.14), transparent 72%),
+      linear-gradient(180deg,#050403 0%,#080604 58%,#050403 100%) !important;
   }
 
-  .hero::after { opacity: .04; }
+  .hero::after { opacity: .025 !important; }
+
+  .hero__eyebrow,
+  .kicker,
+  .authority__role,
+  .module__tag,
+  .module__subtitle,
+  .bonus__tag,
+  .bonus__value strong,
+  .hero__badge svg,
+  .forwhom__card--yes .forwhom__title,
+  .offer__today,
+  .offer__installments {
+    color: #FFD45F !important;
+    -webkit-text-fill-color: #FFD45F !important;
+  }
 
   .hero__eyebrow {
-    color: #d6a74a;
-    border-color: rgba(215,170,77,.28);
-    background: rgba(215,170,77,.025);
+    border-color: rgba(255,212,95,.42) !important;
+    background: rgba(255,212,95,.055) !important;
   }
 
-  .hero__title { color: #fff8ed; }
+  .hero__title,
+  .section-title,
+  .pain__headline,
+  .authority__name,
+  .bonus__name,
+  .offer__headline,
+  .guarantee__title {
+    color: #FFF9EF !important;
+    -webkit-text-fill-color: #FFF9EF !important;
+  }
 
+  .gold-text,
   .hero__title .gold-text {
     background: none !important;
-    -webkit-text-fill-color: #e8c36a !important;
-    color: #e8c36a !important;
-    text-shadow: 0 3px 22px rgba(196,139,43,.10);
+    background-image: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: #FFD45F !important;
+    color: #FFD45F !important;
+    text-shadow: 0 0 18px rgba(255,212,95,.15) !important;
   }
 
-  .hero__subtitle {
-    color: #c5b9a6;
-    line-height: 1.68;
+  .hero__subtitle,
+  .section-sub,
+  .pain__paragraphs,
+  .pain__relief p,
+  .enemy__card p,
+  .module__hook,
+  .forwhom__item,
+  .authority__text,
+  .pillar__text,
+  .testi__bubble,
+  .bonus-feature__copy .bonus__desc,
+  .bonus__foot,
+  .payment__text,
+  .guarantee__text,
+  .faq__a,
+  .cta-sub {
+    color: #E0D5C5 !important;
+    -webkit-text-fill-color: #E0D5C5 !important;
   }
 
-  .hero__cta .cta {
-    background: linear-gradient(135deg,#f5dc97 0%,#ddb24f 55%,#aa7627 100%);
-    color: #100b03;
+  .hero__badge,
+  .module__name,
+  .pillar__title,
+  .forwhom__title,
+  .testi__name,
+  .offer__stack,
+  .offer__current,
+  .sticky-cta__price {
+    color: #FFF9EF !important;
+    -webkit-text-fill-color: #FFF9EF !important;
   }
 
-  .cta-sub { color: #aaa08f; }
+  .cta,
+  .hero__cta .cta,
+  .sticky-cta .cta {
+    background: #F4C64F !important;
+    background-image: none !important;
+    color: #090601 !important;
+    -webkit-text-fill-color: #090601 !important;
+    border: 1px solid #FFE394 !important;
+    box-shadow: 0 10px 30px rgba(244,198,79,.27) !important;
+    filter: none !important;
+  }
 
-  .book-real--md { width: min(335px,86vw); }
-  .book-real__book { transform: rotateY(-5deg) rotateX(.4deg); }
-  .book-real__pages { right: -9px; width: 11px; opacity: .82; }
+  .sticky-cta {
+    background: #070503 !important;
+    border-top: 1px solid rgba(255,212,95,.38) !important;
+  }
+
+  .sticky-cta__note {
+    color: #D9CDBB !important;
+    -webkit-text-fill-color: #D9CDBB !important;
+  }
+
+  .book-real--md { width: min(340px,88vw) !important; }
+  .book-real__book {
+    transform: rotateY(-3deg) rotateX(.2deg) !important;
+    filter: drop-shadow(14px 24px 34px rgba(0,0,0,.72)) !important;
+  }
+  .book-real__pages { right: -8px; width: 10px; opacity: .72; }
+  .book-real__cover { filter: none !important; }
 
   .authority__seal--king {
     min-height: 0;
     aspect-ratio: 1 / 1;
-    border-radius: 24px;
+    border-radius: 22px;
+    border-color: rgba(255,212,95,.30) !important;
   }
 
   .authority__king-image {
     min-height: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    filter: none !important;
   }
 
-  .bonus-cover-wrap { width: min(285px,78vw); }
-
+  .bonus-cover-wrap { width: min(300px,82vw); }
   .bonus-cover-wrap img {
-    transform: rotateY(-3deg);
+    transform: rotateY(-2deg) !important;
     box-shadow: 14px 24px 44px rgba(0,0,0,.58);
+    filter: none !important;
   }
 
-  .kicker { color: #d7aa4d; }
-  .section-sub,
-  .authority__text,
-  .module__hook,
-  .bonus-feature__copy .bonus__desc { color: #bcb09d; }
+  .section-divider { background: linear-gradient(90deg,transparent,rgba(255,212,95,.38),transparent) !important; }
+  .module--teaser,
+  .enemy__card,
+  .forwhom__card,
+  .testi__message,
+  .bonus-feature,
+  .offer__card,
+  .faq__item {
+    border-color: rgba(255,212,95,.20) !important;
+  }
 }
