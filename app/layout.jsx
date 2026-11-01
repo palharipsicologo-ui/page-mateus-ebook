@@ -1,6 +1,7 @@
 import './globals.css'
 import './premium.css'
 import './refinements.css'
+import './mobile-fix.css'
 
 export const metadata = {
   title: 'Protocolo Controle Absoluto — assuma o comando do seu desempenho',
@@ -14,14 +15,15 @@ export const metadata = {
 }
 
 export const viewport = {
-  themeColor: '#080705',
+  themeColor: '#050403',
+  colorScheme: 'dark',
   width: 'device-width',
   initialScale: 1,
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" style={{ colorScheme: 'dark' }}>
       <body>{children}</body>
     </html>
   )
