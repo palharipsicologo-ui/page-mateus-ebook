@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1560" viewBox="0 0 1080 1560">
+<defs>
+  <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#F0D86F"/><stop offset=".45" stop-color="#D4AA3F"/><stop offset="1" stop-color="#9A6F13"/></linearGradient>
+  <linearGradient id="marble" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1B1B1B"/><stop offset=".45" stop-color="#070707"/><stop offset="1" stop-color="#15110A"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#D4AA3F" stop-opacity=".18"/><stop offset="1" stop-color="#D4AA3F" stop-opacity="0"/></radialGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000" flood-opacity=".85"/></filter>
+</defs>
+<rect width="1080" height="1560" fill="#050505"/>
+<rect x="25" y="25" width="1030" height="1510" rx="8" fill="none" stroke="#D4AA3F" stroke-width="2"/>
+<text x="540" y="95" text-anchor="middle" fill="#D4AA3F" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" letter-spacing="12">UM PERCURSO PRÁTICO DE 30 DIAS</text>
+<line x1="220" x2="350" y1="155" y2="155" stroke="#D4AA3F" stroke-width="2"/>
+<text x="540" y="175" text-anchor="middle" fill="#FFF9EC" font-family="Georgia,serif" font-size="44" letter-spacing="12">PROTOCOLO</text>
+<line x1="730" x2="860" y1="155" y2="155" stroke="#D4AA3F" stroke-width="2"/>
+<text x="540" y="290" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="104" font-weight="700">CONTROLE</text>
+<text x="540" y="395" text-anchor="middle" fill="url(#gold)" font-family="Georgia,serif" font-size="104" font-weight="700">ABSOLUTO</text>
+<ellipse cx="540" cy="805" rx="350" ry="350" fill="url(#halo)"/>
+<g filter="url(#shadow)" transform="translate(0,25)">
+  <path d="M540 470 l-52 0 0 36 -38 0 0 44 38 0 0 36 52 0 0-36 38 0 0-44-38 0z" fill="url(#gold)" stroke="#F4DE7A" stroke-width="3"/>
+  <ellipse cx="540" cy="610" rx="95" ry="34" fill="#090909" stroke="#D4AA3F" stroke-width="7"/>
+  <path d="M465 626 C480 685 495 728 500 770 C504 830 478 900 458 972 L622 972 C601 900 576 830 580 770 C585 728 600 685 615 626 Z" fill="url(#marble)" stroke="#D4AA3F" stroke-width="7"/>
+  <ellipse cx="540" cy="973" rx="132" ry="42" fill="#090909" stroke="#D4AA3F" stroke-width="7"/>
+  <ellipse cx="540" cy="1015" rx="160" ry="52" fill="#111" stroke="#D4AA3F" stroke-width="7"/>
+  <rect x="385" y="1040" width="310" height="45" rx="16" fill="#080808" stroke="#D4AA3F" stroke-width="7"/>
+  <path d="M492 690 C535 720 545 770 600 805" fill="none" stroke="#F0D86F" stroke-width="10" stroke-linecap="round"/>
+  <path d="M575 650 C530 750 505 850 485 945" fill="none" stroke="#B58417" stroke-width="7" stroke-linecap="round"/>
+  <path d="M520 615 C550 705 565 800 600 930" fill="none" stroke="#D4AA3F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M485 820 C530 845 560 880 610 905" fill="none" stroke="#F0D86F" stroke-width="5" stroke-linecap="round"/>
+</g>
+<path d="M0 1110 C200 1030 310 1175 500 1110 C710 1040 820 1130 1080 1040 L1080 1560 0 1560Z" fill="#090909"/>
+<path d="M0 1180 C200 1115 340 1260 560 1180 C770 1110 900 1170 1080 1120" fill="none" stroke="#D4AA3F" stroke-opacity=".28" stroke-width="4"/>
+<text x="540" y="1260" text-anchor="middle" fill="#FFF7E8" font-family="Georgia,serif" font-size="35">Desenvoltura sexual. Percepção, posições</text>
+<text x="540" y="1305" text-anchor="middle" fill="#FFF7E8" font-family="Georgia,serif" font-size="35">e condução em parceria.</text>
+<line x1="285" x2="390" y1="1410" y2="1410" stroke="#D4AA3F" stroke-width="2"/>
+<text x="540" y="1425" text-anchor="middle" fill="#D4AA3F" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" letter-spacing="14">O MAESTRO</text>
+<line x1="690" x2="795" y1="1410" y2="1410" stroke="#D4AA3F" stroke-width="2"/>
+</svg>
