@@ -2,6 +2,7 @@ import './globals.css'
 import './premium.css'
 import './refinements.css'
 import './mobile-fix.css'
+import './final-fixes.css'
 
 export const metadata = {
   title: 'Protocolo Controle Absoluto — assuma o comando do seu desempenho',
@@ -15,7 +16,7 @@ export const metadata = {
 }
 
 export const viewport = {
-  themeColor: '#050403',
+  themeColor: '#050505',
   colorScheme: 'dark',
   width: 'device-width',
   initialScale: 1,
