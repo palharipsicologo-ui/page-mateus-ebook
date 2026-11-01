@@ -18,9 +18,9 @@ export default function Bonus() {
           <div className="bonus-feature__visual" aria-label="Capa do bônus Dopamina Reset">
             <div className="bonus-cover-wrap">
               <img
-                src="/dopamina-reset-cover.svg"
-                width="1000"
-                height="1414"
+                src="/dopamina-reset-generated.webp"
+                width="1044"
+                height="1507"
                 alt="Capa do Protocolo Dopamina Reset"
                 draggable="false"
                 decoding="async"
