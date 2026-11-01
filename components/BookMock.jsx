@@ -8,8 +8,8 @@ export default function BookMock({ size = 'md' }) {
         <img
           className="book-real__cover"
           src="/controle-absoluto-cover.svg"
-          width="1200"
-          height="1733"
+          width="900"
+          height="1300"
           alt={`Capa do ${BRAND.product}`}
           draggable="false"
           decoding="async"
