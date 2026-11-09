@@ -22,8 +22,8 @@ export const HERO = {
   title: 'Quando a pressão sobe,',
   titleHighlight: 'você assume o comando.',
   subtitle:
-    'Pare de transformar sexo em teste. Aprenda a reconhecer a excitação antes da urgência, conduzir o ritmo, atravessar oscilações da ereção e entrar no jogo com postura, repertório e presença.',
-  badges: ['Controle da excitação', 'Confiança e ereção', 'Condução e repertório', 'Garantia de 7 dias'],
+    'Pare de transformar sexo em teste. Aprenda a reconhecer a excitação antes da urgência, ditar o ritmo, lidar com oscilações da ereção e entrar no jogo com postura, técnica e presença.',
+  badges: ['Controle da excitação', 'Confiança e ereção', 'Ritmo e iniciativa', 'Garantia de 7 dias'],
   ctaPrimary: 'QUERO PARAR DE SER REFÉM',
   reassurance: 'Acesso imediato · Protocolo + bônus · leitura no celular ou computador',
 }
@@ -35,9 +35,9 @@ export const PAIN = {
     'Você sabe como é. O encontro começa, a excitação sobe e aquilo que deveria ser prazer vira cobrança. Você se vigia, tenta controlar cada reação e perde a liberdade de simplesmente curtir. Quanto mais tenta provar que dá conta, maior fica a pressão.',
     'Aí o sexo vira prova. Você acelera quando queria prolongar, evita uma pausa para não parecer inseguro e entra na próxima vez carregando o peso da anterior. O problema deixa de ser só o que o corpo faz — passa a ser o quanto isso manda em você.',
   ],
-  reliefTitle: 'Você não precisa de mais sorte. Precisa de repertório.',
+  reliefTitle: 'Pare de contar com a sorte. Comece a dominar o próprio ritmo.',
   reliefText:
-    'O Controle Absoluto foi construído para transformar pressa em leitura, ansiedade em ação e improviso em condução. Você aprende o que fazer antes, durante e depois dos momentos em que normalmente perde o eixo.',
+    'O Controle Absoluto foi criado para trocar pressa por percepção, ansiedade por atitude e improviso por técnica. Aprenda a agir antes, durante e depois dos momentos em que costuma perder o eixo.',
 }
 
 export const ENEMY = {
@@ -54,11 +54,11 @@ export const ENEMY = {
     },
     {
       wrong: 'Cronometrar cada minuto',
-      why: 'Enquanto você olha para o relógio, transforma prazer em avaliação. O objetivo é ganhar leitura e condução, não viver preso ao placar.',
+      why: 'Enquanto você olha para o relógio, transforma prazer em avaliação. O objetivo é entender o momento e escolher quando desacelerar, não viver preso ao placar.',
     },
   ],
   conclusion:
-    'O homem que depende de truque entra torcendo. O homem que tem repertório entra sabendo como conduzir.',
+    'Quem depende de truque entra torcendo. Quem domina o próprio ritmo entra preparado.',
 }
 
 export const TRANSFORM = {
@@ -78,7 +78,7 @@ export const TRANSFORM = {
     title: 'Quando você assume a regência',
     items: [
       'Entra mais confiante porque sabe o que fazer quando a excitação sobe',
-      'Conduz ritmo, pausas, posições e mudanças com mais presença',
+      'Define o ritmo, faz pausas, varia posições e reage com mais segurança',
       'Para de tratar qualquer oscilação da ereção como fim do jogo',
       'Usa percepção e técnica para prolongar o prazer quando quer continuar',
       'Transforma desempenho em diversão — e deixa de entrar em campo derrotado',
@@ -90,7 +90,7 @@ export const MODULES = {
   kicker: 'O MÉTODO',
   headline: 'Você não precisa decorar um manual. Precisa dominar as alavancas certas.',
   subhead:
-    'O percurso foi dividido nas frentes que mais pesam quando um homem perde confiança, controle e presença. Você aprende o suficiente para agir — sem depender de sorte ou improviso.',
+    'O método trabalha as frentes que mais pesam quando um homem perde confiança e presença. Você aprende técnicas para colocar o controle em prática — sem depender de sorte ou improviso.',
   list: [
     {
       tag: 'FRENTE 01',
@@ -114,13 +114,13 @@ export const MODULES = {
       tag: 'FRENTE 04',
       name: 'Cabeça de aço',
       subtitle: 'Ansiedade de desempenho.',
-      hook: 'Quebre o ciclo de previsão de fracasso, pressa e autocobrança que sabota a experiência antes mesmo de ela engrenar.',
+      hook: 'Quebre o ciclo de medo de falhar, pressa e autocobrança que começa antes mesmo de o encontro engrenar.',
     },
     {
       tag: 'FRENTE 05',
       name: 'Condução',
       subtitle: 'Iniciativa, posições e parceria.',
-      hook: 'Saiba propor, variar, ajustar e conduzir sem parecer perdido nem transformar intimidade em um roteiro robótico.',
+      hook: 'Aprenda a propor, variar e tomar a iniciativa sem parecer perdido nem transformar a intimidade em um roteiro robótico.',
     },
     {
       tag: 'FRENTE 06',
@@ -149,7 +149,7 @@ export const FOR_WHOM = {
       'Quer ter mais domínio sobre excitação, ritmo e continuidade',
       'Quer lidar melhor com a ereção sem entrar em pânico quando ela oscila',
       'Quer se divertir no sexo em vez de passar a noite se avaliando',
-      'Quer impressionar pela presença, iniciativa e condução — não pela sorte',
+      'Quer impressionar pela presença, iniciativa e segurança — não pela sorte',
     ],
   },
 }
@@ -159,13 +159,13 @@ export const AUTHORITY = {
   name: 'O Maestro',
   role: 'Criador do Protocolo Controle Absoluto',
   paragraphs: [
-    'O Maestro parte de uma premissa simples: sexo ruim não se corrige com superstição. Quando você entende o que acontece no corpo, lê a excitação mais cedo e sabe como conduzir, deixa de reagir como quem está apagando incêndio.',
-    'O Controle Absoluto reúne treino corporal, percepção, resposta à ansiedade e condução em um único percurso. A ideia é simples: você não entra para “ver no que dá”. Entra com repertório para perceber, decidir e agir.',
+    'O Maestro parte de uma premissa simples: sexo ruim não se corrige com superstição. Quando você entende o que acontece no corpo, percebe a excitação antes que ela tome conta e sabe ajustar o ritmo, deixa de reagir como quem está apagando incêndio.',
+    'O Controle Absoluto reúne treino corporal, percepção, resposta à ansiedade e iniciativa em um único percurso. Em vez de entrar para “ver no que dá”, você constrói recursos para perceber, decidir e agir.',
   ],
   pillars: [
     { title: 'Domínio', text: 'Parar de ser arrastado pela urgência e começar a agir antes dela.' },
     { title: 'Presença', text: 'Sair da própria cabeça e voltar para o que está acontecendo de verdade.' },
-    { title: 'Regência', text: 'Conduzir ritmo, pausas, mudanças e imprevistos sem perder o eixo.' },
+    { title: 'Regência', text: 'Lidar com pausas, mudanças e imprevistos sem perder o eixo.' },
   ],
 }
 
@@ -234,11 +234,9 @@ export const OFFER = {
 }
 
 export const PAYMENT = {
-  kicker: 'COMPRA SEGURA',
-  title: 'Entre agora. A Kiwify cuida do pagamento e libera o acesso.',
-  text: 'Finalize no checkout seguro e receba o acesso no e-mail informado na compra.',
+  kicker: 'PAGAMENTO',
+  title: 'Checkout seguro pela Kiwify',
   methods: ['Pix', 'Cartão de crédito'],
-  badges: ['Checkout seguro', 'Acesso digital', 'Suporte por e-mail'],
 }
 
 export const GUARANTEE = {
@@ -262,7 +260,7 @@ export const FAQ = {
     },
     {
       q: 'O foco é ejaculação precoce ou desempenho sexual em geral?',
-      a: 'Os dois. O método parte do controle da excitação e amplia para função pélvica, ereção, ansiedade, iniciativa, posições, comunicação e condução.',
+      a: 'Os dois. O método começa pelo domínio da excitação e também trabalha função pélvica, ereção, ansiedade, iniciativa, posições e comunicação.',
     },
     {
       q: 'Preciso estar em um relacionamento?',
@@ -286,6 +284,6 @@ export const FAQ = {
 export const FINAL_CTA = {
   headline: 'Na próxima vez, seja o Maestro. Não deixe a ansiedade reger o espetáculo.',
   subtitle:
-    'Entre sabendo perceber, pausar, conduzir e ajustar. Sexo foi feito para ser vivido — não para parecer uma prova que você precisa sobreviver.',
+    'Entre com mais segurança para perceber, pausar, mudar o ritmo e reagir. Sexo foi feito para ser vivido — não para virar uma prova que você precisa sobreviver.',
   ctaPrimary: 'QUERO ASSUMIR O CONTROLE AGORA',
 }
