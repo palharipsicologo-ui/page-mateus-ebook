@@ -32,7 +32,7 @@ export const PAIN = {
   kicker: 'O QUE REALMENTE TE INCOMODA',
   headline: 'Não é só gozar rápido. É o medo de falhar na hora em que você mais quer impressionar.',
   paragraphs: [
-    'Você sabe como é. Começa a ficar bom e, em vez de curtir, sua cabeça entra em contagem regressiva: “será que eu vou durar?”, “será que a ereção vai cair?”, “será que ela percebeu?”. Quanto mais você tenta provar que dá conta, menos livre você fica.',
+    'Você sabe como é. O encontro começa, a excitação sobe e aquilo que deveria ser prazer vira cobrança. Você se vigia, tenta controlar cada reação e perde a liberdade de simplesmente curtir. Quanto mais tenta provar que dá conta, maior fica a pressão.',
     'Aí o sexo vira prova. Você acelera quando queria prolongar, evita uma pausa para não parecer inseguro e entra na próxima vez carregando o peso da anterior. O problema deixa de ser só o que o corpo faz — passa a ser o quanto isso manda em você.',
   ],
   reliefTitle: 'Você não precisa de mais sorte. Precisa de repertório.',
