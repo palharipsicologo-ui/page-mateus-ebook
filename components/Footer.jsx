@@ -5,8 +5,13 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer__brand">
-          <span className="brand__mark">♚</span>
-          <span>{BRAND.product}</span>
+          <span className="brand__mark brand__mark--king brand__mark--exact footer__mark">
+            <img src="/maestro-rei-premium.jpg" width="1536" height="1536" alt="" />
+          </span>
+          <span className="footer__brand-name">
+            <strong>Controle Absoluto</strong>
+            <small>O Maestro</small>
+          </span>
         </div>
 
         <p className="footer__disclaimer">
@@ -16,7 +21,7 @@ export default function Footer() {
         </p>
 
         <nav className="footer__links" aria-label="Links institucionais">
-          <a href="#faq">Perguntas Frequentes</a>
+          <a href="#faq">Perguntas frequentes</a>
           <a href={`mailto:${BRAND.supportEmail}`}>Suporte: {BRAND.supportEmail}</a>
         </nav>
 
