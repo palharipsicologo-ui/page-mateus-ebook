@@ -259,3 +259,113 @@ html,body{background:#050505 !important;color:#FFF9EE !important;}
   .offer.section{padding-bottom:24px}
   .payment.section{padding-top:24px}
 }
+
+
+/* Conversão: faixa de pagamento reduzida após os três passos */
+.payment--compact {
+  padding: 14px 0 54px !important;
+  background: #050505 !important;
+}
+.payment__compact {
+  width: min(960px,100%);
+  margin-inline: auto;
+  padding: 20px 26px;
+  border: 1px solid rgba(230,188,67,.22);
+  border-radius: 16px;
+  background: rgba(255,255,255,.018);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px 30px;
+}
+.payment__compact-label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+.payment__compact-label .payment__shield {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  color: #FFD15A !important;
+  background: rgba(255,209,90,.07) !important;
+  border: 1px solid rgba(255,209,90,.26) !important;
+}
+.payment__compact-label strong {
+  display: block;
+  font-size: 1.02rem;
+  line-height: 1.4;
+  color: #FFF9EE;
+}
+.payment__compact-methods {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.payment__compact-methods .payment__method {
+  margin: 0;
+  padding: 9px 12px;
+  font-size: .86rem;
+  border-color: rgba(230,188,67,.20);
+  background: rgba(230,188,67,.045);
+  white-space: nowrap;
+  color: #E7DCC8;
+}
+.payment__compact-methods .payment__method svg {
+  color: #FFD15A !important;
+}
+
+/* Identidade visual unificada: mesmo Rei original no cabeçalho e no rodapé */
+.footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 22px;
+}
+.footer__mark {
+  display: block;
+  flex: 0 0 52px;
+  width: 52px !important;
+  height: 52px !important;
+  min-width: 52px;
+  overflow: hidden;
+}
+.footer__mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer__brand-name {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  gap: 4px;
+}
+.footer__brand-name strong {
+  color: #FFF9EE;
+  font-size: 1.08rem;
+  letter-spacing: -.02em;
+}
+.footer__brand-name small {
+  font-size: .70rem;
+  font-weight: 800;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  color: #FFD15A;
+}
+@media(max-width:680px) {
+  .payment--compact { padding: 12px 0 42px !important; }
+  .payment__compact {
+    padding: 17px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .payment__compact-label strong { font-size: .98rem; }
+  .payment__compact-methods { justify-content: flex-start; }
+  .footer__brand-name strong { font-size: 1rem; }
+}
