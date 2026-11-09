@@ -71,6 +71,36 @@ export default function Offer() {
             <p className="guarantee__text">{GUARANTEE.text}</p>
           </div>
         </Reveal>
+
+        <Reveal className="journey" as="div">
+          <div className="journey__heading">
+            <span className="kicker">SEM COMPLICAÇÃO</span>
+            <h3>Em poucos passos, você já começa.</h3>
+          </div>
+          <ol className="journey__steps">
+            <li className="journey__step">
+              <span className="journey__number" aria-hidden="true">01</span>
+              <div>
+                <strong>Garanta seu acesso</strong>
+                <p>Finalize o pedido com segurança no checkout da Kiwify.</p>
+              </div>
+            </li>
+            <li className="journey__step">
+              <span className="journey__number" aria-hidden="true">02</span>
+              <div>
+                <strong>Receba por e-mail</strong>
+                <p>Após a aprovação, os materiais chegam ao seu acesso digital.</p>
+              </div>
+            </li>
+            <li className="journey__step">
+              <span className="journey__number" aria-hidden="true">03</span>
+              <div>
+                <strong>Assuma a regência</strong>
+                <p>Comece o protocolo no seu ritmo, direto do celular ou computador.</p>
+              </div>
+            </li>
+          </ol>
+        </Reveal>
       </div>
     </section>
   )
