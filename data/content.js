@@ -5,7 +5,7 @@
 export const CHECKOUT_URL = 'https://pay.kiwify.com.br/UzFXi1v'
 
 export const PRICE = {
-  current: '12x de R$ 4,79',
+  current: '11x de R$ 5,32',
   cash: 'ou R$ 47,90 à vista',
   note: 'acesso imediato e vitalício',
 }
