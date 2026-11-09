@@ -6,7 +6,7 @@ export default function BookMock({ size = 'md' }) {
       <div className="book-real__book book-real__book--exact">
         <img
           className="book-real__cover book-real__cover--exact"
-          src="/controle-absoluto-hq.webp?v=20261101-6"
+          src="/controle-absoluto-premium.jpg"
           width="1064"
           height="1536"
           alt={`Capa do ${BRAND.product}`}
